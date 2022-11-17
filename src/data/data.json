@@ -1,0 +1,269 @@
+{
+  "acteurs": [
+    {
+      "name": "complotiste",
+      "images": {
+        "icon": "./assets/avatars/complotiste.png"
+      },
+      "consommation": "Stop",
+      "cons-description": "histoire du lait dans les écoles et de la proximité avec les lobbys des industriels laitiers.dvp de médecines alternatives.Faire le lien entre médecine chinoise et le fait que culturellement le lait est beaucoup moins recommandé dans ces zones géographiques",
+      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+    },
+    {
+      "name": "Végans et militants bien-être animal",
+      "images": {
+        "icon": "./assets/avatars/vegan.png"
+      },
+      "consommation": "Stop",
+      "cons-description": "Contestent l’industrialisation de la production laitière : sur-production (mis en avant par arrêt scandale des quotas laitiers et scandale du lait infantile).Boire des produits laitiers = participation à l’exploitation de l’animal au même titre que le manger.Se rabattent sur des alternatives pour avoir du calcium : légumes verts et laits végétaux",
+      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+    },
+    {
+      "name": "Intolérants au lactose, allergiques",
+      "images": {
+        "icon": "./assets/avatars/intolerant.png"
+      },
+      "consommation": "Stop",
+      "cons-description": "intolérance au lactose est souvent surestimée par les individus parfois confondu avec maladie du colon irritable % de personnes intolérants au lactose en France/en Europe ? => 70% n’ont plus ou pas la mutation génétique permettant d’avoir du lactase + 80% en Afrique et en Asie ne digèrent pas le lait Présenter histoire de l’enzyme du lactase ? (il y a 10 000 ans etc.) présenter le mécanisme du lactose/lactase Intolérance au lactose = recherche d’alternatives végétales",
+      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+    },
+    {
+      "name": "Sphère médicale et scientifique nuancée",
+      "images": {
+        "icon": "./assets/avatars/medical.png"
+      },
+      "consommation": "Moderate",
+      "cons-description": "différence dans la manière de procédés d’enquêtes, pas étudié sous le même angle (biologique ou épidémiologique).",
+      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+    },
+    {
+      "name": "Agences d’experts étatiques et institutions",
+      "images": {
+        "icon": "./assets/avatars/expert.png"
+      },
+      "consommation": "Moderate",
+      "cons-description": "présentation des agences Haut Conseil pour la santé, Anses, OMS… Rappel des recommandations, explications de pourquoi les recommandations sont parfois différentes",
+      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+    },
+    {
+      "name": "Producteurs laitiers",
+      "images": {
+        "icon": "./assets/avatars/producteur.png"
+      },
+      "consommation": "Promote",
+      "cons-description": "plus observateurs que militant pour le lait (ppal pb sur le lait est le juste prix) dvp d’alternatives, bio, écrémé, facile à digérer… → montre que socialement on ne veut pas réduire la production, on cherche à produire du lait autrement, d’autre types de lait… En dit long sur l’image sociale du lait",
+      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+    },
+    {
+      "name": "Sphère médicale et scientifique tranchée",
+      "images": {
+        "icon": "./assets/avatars/medical.png"
+      },
+      "consommation": "Promote",
+      "cons-description": "Figure du médecin généraliste (tranchée) : considère le lait comme un super aliment dont il ne faudrait pas se priver, même la question de l’intolérance au lactose est plutôt critiquée par le monde médicale, qui pousse les personnes en situation d’inconfort à trouver un seuil de tolérance dans leur consommation de lait.",
+      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+    },
+    {
+      "name": "Industries laitières",
+      "images": {
+        "icon": "./assets/avatars/industrie.png"
+      },
+      "consommation": "Promote",
+      "cons-description": "ro-lait ++ Très puissante économiquement (chercher les chiffres du CNIEL de l’emploi, du CA…) Très puissante politiquement (activités de lobbying) Activités de communication (parler de l’article britannique sur l’industrie laitière en France) surtout centrées sur les enfants (ex : CNIEL visite dans les écoles d’une diététicienne mandatée par le CNIEL dénoncée par Hugo Clément en 2018)",
+      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+    }
+  ],
+
+  "recommandations": [
+    {
+      "name": "Enfant",
+      "description": "(de trois ans à la puberté; moins de 14ans)",
+      "logo": "./assets/logo/enfant.png",
+      "recommande": [
+        {
+          "medical": {
+            "description": "Sphère médicale",
+            "logo": "./assets/avatars/medical.png",
+            "texte": [
+              {
+                "description": "50% de certitude entre consommation lait et résistance os, ostéoporose",
+                "image": "./assets/logo/os.png",
+                "alt": "logo os"
+              },
+              {
+                "description": "Obésité plus tard 80%",
+                "image": "./assets/logo/balance.png",
+                "alt": "logo balance"
+              },
+              {
+                "description": "Prévient maladies cardio-vasculaire",
+                "image": "./assets/logo/coeur.png",
+                "alt": "logo coeur"
+              }
+            ]
+          },
+          "associations": {
+            "description": "Associations de consommateurs",
+            "logo": "./assets/avatars/famille.png",
+            "texte": {
+              "description": "Culture de boire du lait (rapport à l’éducation, classes sociales qui donne à boire du lait pour le petit dej car c’est un élément positif pour le dvp)",
+              "image": "",
+              "alt": ""
+            }
+          },
+          "experts": {
+            "description": "Communauté d’expertise, agences et institutions",
+            "logo": "./assets/avatars/expert.png",
+            "texte": [
+              {
+                "description": "de 3 produit laitier pendant l’enfance PNNS Haut Conseil de la santé",
+                "image": "",
+                "alt": ""
+              },
+              {
+                "description": "ANSES : entre 700 et 1200 mg/jour calcium",
+                "image": "",
+                "alt": ""
+              }
+            ]
+          },
+          "industrie": {
+            "description": "Industries laitières et producteurs laitiers",
+            "logo": "./assets/avatars/indprod.png",
+            "texte": {
+              "description": "Lobbys recommandent la consommation de lait chez les enfants",
+              "image": "",
+              "alt": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Adulte",
+      "description": "",
+      "logo": "./assets/logo/adulte.png",
+      "recommande": [
+        {
+          "medical": {
+            "description": "Sphère médicale",
+            "logo": "./assets/avatars/medical.png",
+            "texte": [
+              {
+                "description": "Maladies cardiovasculaires (baisse 50%, ne baisse pas 20%, augmente 30%)",
+                "image": "./assets/logo/coeur.png",
+                "alt": "logo coeur"
+              },
+              {
+                "description": "Réduit les fractures 50% ",
+                "image": "./assets/logo/os.png",
+                "alt": "logo os"
+              },
+              {
+                "description": "Bon pour la flore intestinale",
+                "image": "./assets/logo/pizza.png",
+                "alt": "logo nutrition"
+              }
+            ]
+          },
+          "associations": {
+            "description": "Associations de consommateurs",
+            "logo": "./assets/avatars/famille.png",
+            "texte": {
+              "description": "Consommation de lait remise en cause au regard du bien êtreanimal (véganisme), montée del’intolérance au lactose.Scepticisme et complotisme",
+              "image": "",
+              "alt": ""
+            }
+          },
+          "experts": {
+            "description": "Communauté d’expertise, agences et institutions",
+            "logo": "./assets/avatars/expert.png",
+            "texte": [
+              {
+                "description": "ANSES : 750 et 869mg/jour calcimum",
+                "image": "",
+                "alt": ""
+              },
+              {
+                "description": "OMS : 450/500 mg/jour calcium",
+                "image": "",
+                "alt": ""
+              },
+              {
+                "description": "UE: autorité de sécurité alimentaire 2,5g max",
+                "image": "",
+                "alt": ""
+              },
+              {
+                "description": "PNNS 4 : Entre 2 à 4 produits laitiers/jour",
+                "image": "",
+                "alt": ""
+              }
+            ]
+          },
+          "industrie": {
+            "description": "Industries laitières et producteurs laitiers",
+            "logo": "./assets/avatars/indprod.png",
+            "texte": {
+              "description": "Lobbys recommandent la consommation de lait (pour le sportif, bénéfice sur la santé), actions de com indirectes, via le politique",
+              "image": "",
+              "alt": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Personne Agée",
+      "description": "",
+      "logo": "./assets/logo/ancien.png",
+      "recommande": [
+        {
+          "medical": {
+            "description": "Sphère médicale",
+            "logo": "./assets/avatars/medical.png",
+            "texte": [
+              {
+                "description": "Ostéoporose : baisse du risque fractures : 50% ",
+                "image": "./assets/logo/os.png",
+                "alt": "logo os"
+              },
+              {
+                "description": "Augmente cancer de la prostate 50% ",
+                "image": "./assets/logo/bacterie.png",
+                "alt": "logo maladie"
+              }
+            ]
+          },
+          "associations": {
+            "description": "Associations de consommateurs",
+            "logo": "./assets/avatars/famille.png",
+            "texte": {
+              "description": "Consommation de lait remise en cause au regard du bien être animal (véganisme), montée del’intolérance au lactose.Scepticisme et complotisme",
+              "image": "",
+              "alt": ""
+            }
+          },
+          "experts": {
+            "description": "Communauté d’expertise, agences et institutions",
+            "logo": "./assets/avatars/expert.png",
+            "texte": {
+              "description": "150ml de lait pour les personnes de plus de 75ans d’après le PNNS 4 (passage de 3 à 4 produits laitiers par jour, 2021)",
+              "image": "",
+              "alt": ""
+            }
+          },
+          "industrie": {
+            "description": "Industries laitières et producteurs laitiers",
+            "logo": "./assets/avatars/indprod.png",
+            "texte": {
+              "description": "Communication indirecte mais produits transformés des industries du lait autour des bienfaits sur la santé (cholestérol.), fractures..)  ",
+              "image": "",
+              "alt": ""
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

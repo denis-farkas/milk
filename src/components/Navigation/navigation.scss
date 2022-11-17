@@ -1,0 +1,36 @@
+.navbar-nav {
+  list-style-type: none;
+  margin: 0 39px;
+  padding: 0;
+}
+
+.topnav .close-mobile {
+  display: none;
+}
+
+.nav {
+  display: inline-block;
+  margin: 0 1rem;
+  margin-top: 0.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 15.5px;
+  color: hsl(219, 9%, 45%);
+  text-decoration: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.nav.active {
+  border-bottom: 3px solid hsl(26, 100%, 55%);
+  padding-bottom: 1rem;
+}
+
+.nav:hover {
+  border-bottom: 3px solid hsl(26, 100%, 55%);
+  padding-bottom: 1rem;
+}

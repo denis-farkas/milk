@@ -15,7 +15,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 15.5px;
-  color: hsl(219, 9%, 45%);
+  color: #818282;
   text-decoration: none;
 }
 
@@ -26,11 +26,11 @@
 }
 
 .nav.active {
-  border-bottom: 3px solid hsl(26, 100%, 55%);
+  border-bottom: 3px solid #0aa6be;
   padding-bottom: 1rem;
 }
 
 .nav:hover {
-  border-bottom: 3px solid hsl(26, 100%, 55%);
+  border-bottom: 3px solid #4986c0;
   padding-bottom: 1rem;
 }

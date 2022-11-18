@@ -1,0 +1,34 @@
+.strong {
+  color: #135194;
+}
+.gauloise {
+  color: #78bde5;
+}
+.strong-gauloise {
+  color: #4986c0;
+}
+.sky {
+  color: #43afe9;
+}
+
+.Very-dark-blue {
+  color: hsl(220, 13%, 13%);
+}
+.Dark-grayish-blue {
+  color: #05687b;
+}
+.Grayish-blue {
+  color: #0aa6be;
+}
+.dark-grey {
+  color: #818282;
+}
+.grey {
+  color: #b3b7b7;
+}
+.lightgrey {
+  color: #e0e0e0;
+}
+.White {
+  color: hsl(0, 0%, 100%);
+}

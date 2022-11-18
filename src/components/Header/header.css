@@ -34,6 +34,7 @@
 .header-title {
   font-size: 2rem;
   font-weight: 700;
+  color: #3c6e9c;
 }
 
 .header-left img {
@@ -52,6 +53,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 5rem;
+  margin-right: 0rem;
 }
 /*# sourceMappingURL=header.css.map */

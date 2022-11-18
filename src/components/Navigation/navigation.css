@@ -15,7 +15,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 15.5px;
-  color: #68707d;
+  color: #818282;
   text-decoration: none;
 }
 
@@ -26,12 +26,12 @@
 }
 
 .nav.active {
-  border-bottom: 3px solid #ff7d1a;
+  border-bottom: 3px solid #0aa6be;
   padding-bottom: 1rem;
 }
 
 .nav:hover {
-  border-bottom: 3px solid #ff7d1a;
+  border-bottom: 3px solid #4986c0;
   padding-bottom: 1rem;
 }
 /*# sourceMappingURL=navigation.css.map */

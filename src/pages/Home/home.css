@@ -55,7 +55,7 @@ body {
 }
 
 button.plus {
-  margin-top: 2.4rem;
+  margin-top: 3rem;
   color: white;
   background-color: #4986c0;
   border: 2px solid #4986c0;
@@ -74,13 +74,15 @@ button.plus:hover {
 
 .section-image {
   background-image: url(../../assets/images/background.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  width: 45%;
+  width: 48%;
   margin-top: 6rem;
   position: relative;
 }

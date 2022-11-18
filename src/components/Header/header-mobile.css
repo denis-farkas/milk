@@ -1,4 +1,4 @@
-@media screen and (max-width: 975px) {
+@media screen and (max-width: 510px) {
   .menu-mobile {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -7,9 +7,20 @@
     margin-right: 10px;
   }
   .header {
-    width: 90%;
+    width: 100%;
     margin: 10px auto;
     border-bottom: none;
+  }
+  .header-left {
+    width: 90%;
+  }
+  .header-title {
+    font-size: 1.2rem;
+  }
+  .header-left img {
+    width: 5rem;
+    height: auto;
+    margin-right: 0.5rem;
   }
 }
 /*# sourceMappingURL=header-mobile.css.map */

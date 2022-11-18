@@ -1,0 +1,57 @@
+@media screen and (max-width: 510px) {
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    width: 100%;
+  }
+  .main {
+    padding: 1rem 0;
+    flex-wrap: wrap;
+  }
+  .section-text {
+    width: 90%;
+    margin: 2rem auto;
+    order: 2;
+    justify-content: center;
+  }
+
+  .title h1 {
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .description p {
+    text-align: center;
+  }
+
+  .section-image {
+    order: 1;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0;
+    position: relative;
+    background-image: none;
+  }
+  .section-image img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .first-legend {
+    position: absolute;
+    top: 10rem;
+    right: 12rem;
+    color: white;
+  }
+
+  .second-legend {
+    position: absolute;
+    top: 12rem;
+    right: 12rem;
+    color: white;
+  }
+}

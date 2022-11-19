@@ -2,6 +2,10 @@
   padding: 3rem 0rem;
 }
 
+.section-bread {
+  margin-top: 2rem;
+}
+
 .bread {
   margin: 4rem 0;
 }
@@ -14,7 +18,15 @@
       flex-wrap: nowrap;
   width: 100%;
   height: auto;
-  margin: 2rem auto;
+  margin-top: 2rem;
+}
+
+.legend-graph {
+  width: 100%;
+  height: 1rem;
+  background: #d8dcdc;
+  background: -webkit-gradient(linear, left top, right top, color-stop(33%, #d8dcdc), color-stop(77%, #0dcdeb));
+  background: linear-gradient(90deg, #d8dcdc 33%, #0dcdeb 77%);
 }
 
 .legend-text {
@@ -25,7 +37,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-bottom: 2px solid #7ab2bb;
 }
 
 .legend-text h3 {
@@ -95,67 +106,67 @@
 }
 
 .breadcrumb .bouton:nth-child(1) {
-  background-color: #d8dcdc;
+  background-color: #d2d5d5;
 }
 
 .breadcrumb .bouton:nth-child(1):after {
-  background-color: #d8dcdc;
+  background-color: #d2d5d5;
 }
 
 .breadcrumb .bouton:nth-child(2) {
-  background-color: #bec3c3;
+  background-color: #acadad;
 }
 
 .breadcrumb .bouton:nth-child(2):after {
-  background-color: #bec3c3;
+  background-color: #acadad;
 }
 
 .breadcrumb .bouton:nth-child(3) {
-  background-color: #a7a9a9;
+  background-color: #989a9a;
 }
 
 .breadcrumb .bouton:nth-child(3):after {
-  background-color: #a7a9a9;
+  background-color: #989a9a;
 }
 
 .breadcrumb .bouton:nth-child(4) {
-  background-color: #78bde5;
+  background-color: #a6d1d8;
 }
 
 .breadcrumb .bouton:nth-child(4):after {
-  background-color: #78bde5;
+  background-color: #a6d1d8;
 }
 
 .breadcrumb .bouton:nth-child(5) {
-  background-color: #5bb3e5;
+  background-color: #66c9d8;
 }
 
 .breadcrumb .bouton:nth-child(5):after {
-  background-color: #5bb3e5;
+  background-color: #66c9d8;
 }
 
 .breadcrumb .bouton:nth-child(6) {
-  background-color: #0cbbd6;
+  background-color: #1ec4dd;
 }
 
 .breadcrumb .bouton:nth-child(6):after {
-  background-color: #0cbbd6;
+  background-color: #1ec4dd;
 }
 
 .breadcrumb .bouton:nth-child(7) {
-  background-color: #0aa6be;
+  background-color: #1aadc4;
 }
 
 .breadcrumb .bouton:nth-child(7):after {
-  background-color: #0aa6be;
+  background-color: #1aadc4;
 }
 
 .breadcrumb .bouton:nth-child(8) {
-  background-color: #135194;
+  background-color: #03a5ca;
 }
 
 .breadcrumb .bouton:nth-child(8):after {
-  background-color: #135194;
+  background-color: #03a5ca;
 }
 
 /*adding the arrows for the breadcrumbs using rotated pseudo elements*/

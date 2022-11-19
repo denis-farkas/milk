@@ -8,7 +8,9 @@ function Mode() {
   return (
     <div className="main mode">
       <div className="section-bread">
-        <div className="subtitle">Modes de consommation</div>
+        <div className="subtitle">
+          Modes de consommation selon le type d'acteur
+        </div>
         <div className="bread">
           <div className="legend">
             <div className="legend-text">
@@ -21,6 +23,7 @@ function Mode() {
               <h3>Promotion</h3>
             </div>
           </div>
+
           <div className="breadcrumb flat">
             <div className="bouton">
               <div className="avatar">

@@ -1,10 +1,12 @@
-import React from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './mode.css';
 
 import data from '../../data/data.json';
 
 function Mode() {
+  const [currentActor, setCurrentActor] = useState(0);
+
   return (
     <div className="main mode">
       <div className="section-bread">
@@ -25,7 +27,11 @@ function Mode() {
           </div>
 
           <div className="breadcrumb flat">
-            <div className="bouton">
+            <div
+              className="bouton"
+              tabIndex={1}
+              onClick={() => setCurrentActor(0)}
+            >
               <div className="avatar">
                 <img
                   src={data.acteurs[0].images.icon}
@@ -36,7 +42,11 @@ function Mode() {
                 <p>{data.acteurs[0].name}</p>
               </div>
             </div>
-            <div className="bouton">
+            <div
+              className="bouton"
+              tabIndex={1}
+              onClick={() => setCurrentActor(1)}
+            >
               <div className="avatar">
                 <img
                   src={data.acteurs[1].images.icon}
@@ -47,7 +57,11 @@ function Mode() {
                 <p>{data.acteurs[1].name}</p>
               </div>
             </div>
-            <div className="bouton">
+            <div
+              className="bouton"
+              tabIndex={1}
+              onClick={() => setCurrentActor(2)}
+            >
               <div className="avatar">
                 <img
                   src={data.acteurs[2].images.icon}
@@ -58,7 +72,11 @@ function Mode() {
                 <p>{data.acteurs[2].name}</p>
               </div>
             </div>
-            <div className="bouton">
+            <div
+              className="bouton"
+              tabIndex={1}
+              onClick={() => setCurrentActor(3)}
+            >
               <div className="avatar">
                 <img
                   src={data.acteurs[3].images.icon}
@@ -69,7 +87,11 @@ function Mode() {
                 <p>{data.acteurs[3].name}</p>
               </div>
             </div>
-            <div className="bouton">
+            <div
+              className="bouton"
+              tabIndex={1}
+              onClick={() => setCurrentActor(4)}
+            >
               <div className="avatar">
                 <img
                   src={data.acteurs[4].images.icon}
@@ -80,7 +102,11 @@ function Mode() {
                 <p>{data.acteurs[4].name}</p>
               </div>
             </div>
-            <div className="bouton">
+            <div
+              className="bouton"
+              tabIndex={1}
+              onClick={() => setCurrentActor(5)}
+            >
               <div className="avatar">
                 <img
                   src={data.acteurs[5].images.icon}
@@ -91,7 +117,11 @@ function Mode() {
                 <p>{data.acteurs[5].name}</p>
               </div>
             </div>
-            <div className="bouton">
+            <div
+              className="bouton"
+              tabIndex={1}
+              onClick={() => setCurrentActor(6)}
+            >
               <div className="avatar">
                 <img
                   src={data.acteurs[6].images.icon}
@@ -102,7 +132,11 @@ function Mode() {
                 <p>{data.acteurs[6].name}</p>
               </div>
             </div>
-            <div className="bouton">
+            <div
+              className="bouton"
+              tabIndex={1}
+              onClick={() => setCurrentActor(7)}
+            >
               <div className="avatar">
                 <img
                   src={data.acteurs[7].images.icon}
@@ -115,7 +149,31 @@ function Mode() {
             </div>
           </div>
         </div>
-        <div className="section-info"></div>
+        <div className="section-info">
+          <div className="jumbotron">
+            <div className="jumbotron-header">
+              <div className="jumbotron-header-left">
+                <div className="jumbotron-img">
+                  <img
+                    src={data.acteurs[currentActor].images.icon}
+                    alt={data.acteurs[currentActor].name}
+                  />
+                </div>
+              </div>
+              <div className="jumbotron-header-right">
+                <h2>
+                  La consommation préconisée selon les
+                  <span>{data.acteurs[currentActor].name}</span>
+                </h2>
+              </div>
+            </div>
+            <div className="jumbotron-body">
+              <div className="jumbotron-description">
+                <p>{data.acteurs[currentActor].commentaire}</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

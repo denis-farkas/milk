@@ -1,12 +1,12 @@
 {
   "acteurs": [
     {
-      "name": "complotiste",
+      "name": "Complotistes",
       "images": {
         "icon": "./assets/avatars/complotiste.png"
       },
       "consommation": "Stop",
-      "cons-description": "histoire du lait dans les écoles et de la proximité avec les lobbys des industriels laitiers.dvp de médecines alternatives.Faire le lien entre médecine chinoise et le fait que culturellement le lait est beaucoup moins recommandé dans ces zones géographiques",
+      "commentaire": "histoire du lait dans les écoles et de la proximité avec les lobbys des industriels laitiers.dvp de médecines alternatives.Faire le lien entre médecine chinoise et le fait que culturellement le lait est beaucoup moins recommandé dans ces zones géographiques",
       "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
     },
     {
@@ -15,7 +15,7 @@
         "icon": "./assets/avatars/vegan.png"
       },
       "consommation": "Stop",
-      "cons-description": "Contestent l’industrialisation de la production laitière : sur-production (mis en avant par arrêt scandale des quotas laitiers et scandale du lait infantile).Boire des produits laitiers = participation à l’exploitation de l’animal au même titre que le manger.Se rabattent sur des alternatives pour avoir du calcium : légumes verts et laits végétaux",
+      "commentaire": "Contestent l’industrialisation de la production laitière : sur-production (mis en avant par arrêt scandale des quotas laitiers et scandale du lait infantile).Boire des produits laitiers = participation à l’exploitation de l’animal au même titre que le manger.Se rabattent sur des alternatives pour avoir du calcium : légumes verts et laits végétaux",
       "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
     },
     {
@@ -24,7 +24,7 @@
         "icon": "./assets/avatars/intolerant.png"
       },
       "consommation": "Stop",
-      "cons-description": "intolérance au lactose est souvent surestimée par les individus parfois confondu avec maladie du colon irritable % de personnes intolérants au lactose en France/en Europe ? => 70% n’ont plus ou pas la mutation génétique permettant d’avoir du lactase + 80% en Afrique et en Asie ne digèrent pas le lait Présenter histoire de l’enzyme du lactase ? (il y a 10 000 ans etc.) présenter le mécanisme du lactose/lactase Intolérance au lactose = recherche d’alternatives végétales",
+      "commentaire": "intolérance au lactose est souvent surestimée par les individus parfois confondu avec maladie du colon irritable % de personnes intolérants au lactose en France/en Europe ? => 70% n’ont plus ou pas la mutation génétique permettant d’avoir du lactase + 80% en Afrique et en Asie ne digèrent pas le lait Présenter histoire de l’enzyme du lactase ? (il y a 10 000 ans etc.) présenter le mécanisme du lactose/lactase Intolérance au lactose = recherche d’alternatives végétales",
       "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
     },
     {
@@ -33,7 +33,7 @@
         "icon": "./assets/avatars/medical.png"
       },
       "consommation": "Moderate",
-      "cons-description": "différence dans la manière de procédés d’enquêtes, pas étudié sous le même angle (biologique ou épidémiologique).",
+      "commentaire": "différence dans la manière de procédés d’enquêtes, pas étudié sous le même angle (biologique ou épidémiologique).",
       "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
     },
     {
@@ -42,7 +42,7 @@
         "icon": "./assets/avatars/expert.png"
       },
       "consommation": "Moderate",
-      "cons-description": "présentation des agences Haut Conseil pour la santé, Anses, OMS… Rappel des recommandations, explications de pourquoi les recommandations sont parfois différentes",
+      "commentaire": "présentation des agences Haut Conseil pour la santé, Anses, OMS… Rappel des recommandations, explications de pourquoi les recommandations sont parfois différentes",
       "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
     },
     {
@@ -51,7 +51,7 @@
         "icon": "./assets/avatars/producteur.png"
       },
       "consommation": "Promote",
-      "cons-description": "plus observateurs que militant pour le lait (ppal pb sur le lait est le juste prix) dvp d’alternatives, bio, écrémé, facile à digérer… → montre que socialement on ne veut pas réduire la production, on cherche à produire du lait autrement, d’autre types de lait… En dit long sur l’image sociale du lait",
+      "commentaire": "plus observateurs que militant pour le lait (ppal pb sur le lait est le juste prix) dvp d’alternatives, bio, écrémé, facile à digérer… → montre que socialement on ne veut pas réduire la production, on cherche à produire du lait autrement, d’autre types de lait… En dit long sur l’image sociale du lait",
       "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
     },
     {
@@ -60,7 +60,7 @@
         "icon": "./assets/avatars/medical.png"
       },
       "consommation": "Promote",
-      "cons-description": "Figure du médecin généraliste (tranchée) : considère le lait comme un super aliment dont il ne faudrait pas se priver, même la question de l’intolérance au lactose est plutôt critiquée par le monde médicale, qui pousse les personnes en situation d’inconfort à trouver un seuil de tolérance dans leur consommation de lait.",
+      "commentaire": "Figure du médecin généraliste (tranchée) : considère le lait comme un super aliment dont il ne faudrait pas se priver, même la question de l’intolérance au lactose est plutôt critiquée par le monde médicale, qui pousse les personnes en situation d’inconfort à trouver un seuil de tolérance dans leur consommation de lait.",
       "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
     },
     {
@@ -69,7 +69,7 @@
         "icon": "./assets/avatars/industrie.png"
       },
       "consommation": "Promote",
-      "cons-description": "ro-lait ++ Très puissante économiquement (chercher les chiffres du CNIEL de l’emploi, du CA…) Très puissante politiquement (activités de lobbying) Activités de communication (parler de l’article britannique sur l’industrie laitière en France) surtout centrées sur les enfants (ex : CNIEL visite dans les écoles d’une diététicienne mandatée par le CNIEL dénoncée par Hugo Clément en 2018)",
+      "commentaire": "ro-lait ++ Très puissante économiquement (chercher les chiffres du CNIEL de l’emploi, du CA…) Très puissante politiquement (activités de lobbying) Activités de communication (parler de l’article britannique sur l’industrie laitière en France) surtout centrées sur les enfants (ex : CNIEL visite dans les écoles d’une diététicienne mandatée par le CNIEL dénoncée par Hugo Clément en 2018)",
       "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
     }
   ],

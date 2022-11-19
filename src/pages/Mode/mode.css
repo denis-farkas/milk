@@ -227,9 +227,105 @@
 }
 
 .flat .bouton:hover,
-.flat .bouton.active,
+.flat .bouton:focus,
 .flat .bouton:hover:after,
-.flat .bouton.active:after {
+.flat .bouton:focus:after {
   background: #9eeb62;
+}
+
+.jumbotron {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  height: auto;
+  border: 1px solid #4986c0;
+  background-color: #eeecec;
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.jumbotron-header {
+  height: 9rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.jumbotron-header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30%;
+}
+
+.jumbotron-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100%;
+  background-color: #9eeb62;
+  width: 8rem;
+  height: 8rem;
+}
+
+.jumbotron-header-left img {
+  height: 6.5rem;
+  width: auto;
+}
+
+.jumbotron-header-right {
+  width: 70%;
+  height: 9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.jumbotron-header-right h2 span {
+  margin-left: 0.5rem;
+}
+
+.jumbotron-body {
+  border: 1px solid grey;
+  border-radius: 20px;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 2rem;
+  line-height: 2;
 }
 /*# sourceMappingURL=mode.css.map */

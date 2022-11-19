@@ -225,6 +225,14 @@
   background: #9eeb62;
 }
 
+.breadcrumb .bouton.active {
+  background: #9eeb62;
+}
+
+.breadcrumb .bouton.active:after {
+  background: #9eeb62;
+}
+
 .jumbotron {
   display: -webkit-box;
   display: -ms-flexbox;

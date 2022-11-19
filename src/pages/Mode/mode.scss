@@ -175,6 +175,13 @@
   background: #9eeb62;
 }
 
+.breadcrumb .bouton.active {
+  background: #9eeb62;
+}
+.breadcrumb .bouton.active:after {
+  background: #9eeb62;
+}
+
 .jumbotron {
   display: flex;
   flex-wrap: nowrap;

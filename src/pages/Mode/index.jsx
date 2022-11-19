@@ -7,6 +7,14 @@ import data from '../../data/data.json';
 function Mode() {
   const [currentActor, setCurrentActor] = useState(0);
 
+  function isActived(i) {
+    if (currentActor === i) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   return (
     <div className="main mode">
       <div className="section-bread">
@@ -15,126 +23,26 @@ function Mode() {
         </div>
         <div className="bread">
           <div className="breadcrumb flat">
-            <div
-              className="bouton"
-              tabIndex={1}
-              onClick={() => setCurrentActor(0)}
-            >
-              <div className="avatar">
-                <img
-                  src={data.acteurs[0].images.icon}
-                  alt={data.acteurs[0].name}
-                />
-              </div>
-              <div className="avatar-text">
-                <p>{data.acteurs[0].name}</p>
-              </div>
-            </div>
-            <div
-              className="bouton"
-              tabIndex={1}
-              onClick={() => setCurrentActor(1)}
-            >
-              <div className="avatar">
-                <img
-                  src={data.acteurs[1].images.icon}
-                  alt={data.acteurs[1].name}
-                />
-              </div>
-              <div className="avatar-text">
-                <p>{data.acteurs[1].name}</p>
-              </div>
-            </div>
-            <div
-              className="bouton"
-              tabIndex={1}
-              onClick={() => setCurrentActor(2)}
-            >
-              <div className="avatar">
-                <img
-                  src={data.acteurs[2].images.icon}
-                  alt={data.acteurs[2].name}
-                />
-              </div>
-              <div className="avatar-text">
-                <p>{data.acteurs[2].name}</p>
-              </div>
-            </div>
-            <div
-              className="bouton"
-              tabIndex={1}
-              onClick={() => setCurrentActor(3)}
-            >
-              <div className="avatar">
-                <img
-                  src={data.acteurs[3].images.icon}
-                  alt={data.acteurs[3].name}
-                />
-              </div>
-              <div className="avatar-text">
-                <p>{data.acteurs[3].name}</p>
-              </div>
-            </div>
-            <div
-              className="bouton"
-              tabIndex={1}
-              onClick={() => setCurrentActor(4)}
-            >
-              <div className="avatar">
-                <img
-                  src={data.acteurs[4].images.icon}
-                  alt={data.acteurs[4].name}
-                />
-              </div>
-              <div className="avatar-text">
-                <p>{data.acteurs[4].name}</p>
-              </div>
-            </div>
-            <div
-              className="bouton"
-              tabIndex={1}
-              onClick={() => setCurrentActor(5)}
-            >
-              <div className="avatar">
-                <img
-                  src={data.acteurs[5].images.icon}
-                  alt={data.acteurs[5].name}
-                />
-              </div>
-              <div className="avatar-text">
-                <p>{data.acteurs[5].name}</p>
-              </div>
-            </div>
-            <div
-              className="bouton"
-              tabIndex={1}
-              onClick={() => setCurrentActor(6)}
-            >
-              <div className="avatar">
-                <img
-                  src={data.acteurs[6].images.icon}
-                  alt={data.acteurs[6].name}
-                />
-              </div>
-              <div className="avatar-text">
-                <p>{data.acteurs[6].name}</p>
-              </div>
-            </div>
-            <div
-              className="bouton"
-              tabIndex={1}
-              onClick={() => setCurrentActor(7)}
-            >
-              <div className="avatar">
-                <img
-                  src={data.acteurs[7].images.icon}
-                  alt={data.acteurs[7].name}
-                />
-              </div>
-              <div className="avatar-text">
-                <p>{data.acteurs[7].name}</p>
-              </div>
-            </div>
+            {data.acteurs.map((acteur, i) => {
+              return (
+                <div
+                  key={i}
+                  className={`bouton ${isActived(i) ? ' active' : ''}`}
+                  tabIndex={i}
+                  onClick={() => {
+                    setCurrentActor(i);
+                    isActived(i);
+                  }}
+                >
+                  <div className="avatar">
+                    <img src={acteur.images.icon} alt={acteur.name} />
+                  </div>
+                  <div className="avatar-text">
+                    <p>{acteur.name}</p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
           <div className="legend">
             <div className="legend-text">

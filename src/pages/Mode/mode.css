@@ -7,7 +7,7 @@
 }
 
 .bread {
-  margin: 4rem 0;
+  margin: 3rem 0;
 }
 
 .legend {
@@ -18,15 +18,7 @@
       flex-wrap: nowrap;
   width: 100%;
   height: auto;
-  margin-top: 2rem;
-}
-
-.legend-graph {
-  width: 100%;
-  height: 1rem;
-  background: #d8dcdc;
-  background: -webkit-gradient(linear, left top, right top, color-stop(33%, #d8dcdc), color-stop(77%, #0dcdeb));
-  background: linear-gradient(90deg, #d8dcdc 33%, #0dcdeb 77%);
+  margin-top: 0.5rem;
 }
 
 .legend-text {

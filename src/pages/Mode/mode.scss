@@ -6,7 +6,7 @@
 }
 
 .bread {
-  margin: 4rem 0;
+  margin: 3rem 0;
 }
 
 .legend {
@@ -14,18 +14,7 @@
   flex-wrap: nowrap;
   width: 100%;
   height: auto;
-  margin-top: 2rem;
-}
-
-.legend-graph {
-  width: 100%;
-  height: 1rem;
-  background: rgb(216, 220, 220);
-  background: linear-gradient(
-    90deg,
-    rgba(216, 220, 220, 1) 33%,
-    rgba(13, 205, 235, 1) 77%
-  );
+  margin-top: 0.5rem;
 }
 
 .legend-text {

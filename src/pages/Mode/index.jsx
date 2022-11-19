@@ -14,18 +14,6 @@ function Mode() {
           Modes de consommation selon le type d'acteur
         </div>
         <div className="bread">
-          <div className="legend">
-            <div className="legend-text">
-              <h3>Prohibition</h3>
-            </div>
-            <div className="legend-text">
-              <h3>Modération</h3>
-            </div>
-            <div className="legend-text">
-              <h3>Promotion</h3>
-            </div>
-          </div>
-
           <div className="breadcrumb flat">
             <div
               className="bouton"
@@ -146,6 +134,17 @@ function Mode() {
               <div className="avatar-text">
                 <p>{data.acteurs[7].name}</p>
               </div>
+            </div>
+          </div>
+          <div className="legend">
+            <div className="legend-text">
+              <h3>Prohibition</h3>
+            </div>
+            <div className="legend-text">
+              <h3>Modération</h3>
+            </div>
+            <div className="legend-text">
+              <h3>Promotion</h3>
             </div>
           </div>
         </div>

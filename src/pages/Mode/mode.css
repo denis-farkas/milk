@@ -1,0 +1,224 @@
+.mode {
+  padding: 3rem 0rem;
+}
+
+.bread {
+  margin: 4rem 0;
+}
+
+.legend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+.legend-text {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 2px solid #7ab2bb;
+}
+
+.legend-text h3 {
+  color: #0aa6be;
+}
+
+.legend-text:nth-child(2) {
+  width: 20%;
+}
+
+.breadcrumb {
+  /*centering*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 1440px;
+  -webkit-box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);
+          box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.breadcrumb .bouton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  height: 90px;
+  width: 180px;
+  position: relative;
+  cursor: pointer;
+}
+
+.bouton .avatar img {
+  width: auto;
+  height: 90%;
+}
+
+.breadcrumb .bouton .avatar-text {
+  z-index: 2;
+}
+
+.breadcrumb .bouton .avatar-text p {
+  margin-left: 5px;
+  color: black;
+  font-size: 12px;
+  width: 70px;
+  height: auto;
+}
+
+/*since the first link does not have a triangle before it we can reduce the left padding to make it look consistent with other links*/
+.breadcrumb .bouton:first-child {
+  border-radius: 5px 0 0 5px;
+  /*to match with the parent's radius*/
+}
+
+.breadcrumb .bouton:last-child {
+  border-radius: 0 5px 5px 0;
+  /*this was to prevent glitches on hover*/
+}
+
+.breadcrumb .bouton:nth-child(1) {
+  background-color: #d8dcdc;
+}
+
+.breadcrumb .bouton:nth-child(1):after {
+  background-color: #d8dcdc;
+}
+
+.breadcrumb .bouton:nth-child(2) {
+  background-color: #bec3c3;
+}
+
+.breadcrumb .bouton:nth-child(2):after {
+  background-color: #bec3c3;
+}
+
+.breadcrumb .bouton:nth-child(3) {
+  background-color: #a7a9a9;
+}
+
+.breadcrumb .bouton:nth-child(3):after {
+  background-color: #a7a9a9;
+}
+
+.breadcrumb .bouton:nth-child(4) {
+  background-color: #78bde5;
+}
+
+.breadcrumb .bouton:nth-child(4):after {
+  background-color: #78bde5;
+}
+
+.breadcrumb .bouton:nth-child(5) {
+  background-color: #5bb3e5;
+}
+
+.breadcrumb .bouton:nth-child(5):after {
+  background-color: #5bb3e5;
+}
+
+.breadcrumb .bouton:nth-child(6) {
+  background-color: #0cbbd6;
+}
+
+.breadcrumb .bouton:nth-child(6):after {
+  background-color: #0cbbd6;
+}
+
+.breadcrumb .bouton:nth-child(7) {
+  background-color: #0aa6be;
+}
+
+.breadcrumb .bouton:nth-child(7):after {
+  background-color: #0aa6be;
+}
+
+.breadcrumb .bouton:nth-child(8) {
+  background-color: #135194;
+}
+
+.breadcrumb .bouton:nth-child(8):after {
+  background-color: #135194;
+}
+
+/*adding the arrows for the breadcrumbs using rotated pseudo elements*/
+.breadcrumb .bouton:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -45px;
+  /*half of square's length*/
+  /*same dimension as the line-height of .breadcrumb a */
+  width: 90px;
+  height: 90px;
+  /*as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's: 
+	length = 1; diagonal = (1^2 + 1^2)^0.5 = 1.414 (pythagoras theorem)
+	if diagonal required = 1; length = 1/1.414 = 0.707*/
+  -webkit-transform: scale(0.707) rotate(45deg);
+          transform: scale(0.707) rotate(45deg);
+  /*we need to prevent the arrows from getting buried under the next link*/
+  z-index: 1;
+  border-radius: 0 5px 0 50px;
+}
+
+/*we dont need an arrow after the last link*/
+.breadcrumb .bouton:last-child:after {
+  content: none;
+}
+
+/*we will use the :before element to show numbers*/
+.breadcrumb .bouton .avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100%;
+  width: 56px;
+  height: 56px;
+  margin-left: 3rem;
+  background-color: white;
+}
+
+.flat .bouton,
+.flat .bouton:after {
+  background: white;
+  color: black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.flat .bouton:before {
+  background: white;
+  -webkit-box-shadow: 0 0 0 1px #ccc;
+          box-shadow: 0 0 0 1px #ccc;
+}
+
+.flat .bouton:hover,
+.flat .bouton.active,
+.flat .bouton:hover:after,
+.flat .bouton.active:after {
+  background: #9eeb62;
+}
+/*# sourceMappingURL=mode.css.map */

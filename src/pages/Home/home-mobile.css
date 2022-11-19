@@ -48,13 +48,13 @@
   .first-legend {
     position: absolute;
     top: 10rem;
-    right: 12rem;
+    right: 14rem;
     color: white;
   }
   .second-legend {
     position: absolute;
     top: 12rem;
-    right: 12rem;
+    right: 14rem;
     color: white;
   }
 }

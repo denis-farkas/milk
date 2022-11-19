@@ -151,8 +151,8 @@ function Mode() {
         </div>
         <div className="section-info">
           <div className="jumbotron">
-            <div className="jumbotron-header">
-              <div className="jumbotron-header-left">
+            <div className="jumbotron-aside">
+              <div className="jumbotron-aside-header">
                 <div className="jumbotron-img">
                   <img
                     src={data.acteurs[currentActor].images.icon}
@@ -160,9 +160,8 @@ function Mode() {
                   />
                 </div>
               </div>
-              <div className="jumbotron-header-right">
+              <div className="jumbotron-aside-body">
                 <h2>
-                  La consommation préconisée selon les
                   <span>{data.acteurs[currentActor].name}</span>
                 </h2>
               </div>

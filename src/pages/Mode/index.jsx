@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './mode.css';
+import './mode-mobile.css';
 
 import data from '../../data/data.json';
 
@@ -17,10 +18,10 @@ function Mode() {
 
   return (
     <div className="main mode">
+      <div className="subtitle">
+        Modes de consommation selon le type d'acteur
+      </div>
       <div className="section-bread">
-        <div className="subtitle">
-          Modes de consommation selon le type d'acteur
-        </div>
         <div className="bread">
           <div className="breadcrumb flat">
             {data.acteurs.map((acteur, i) => {
@@ -56,27 +57,27 @@ function Mode() {
             </div>
           </div>
         </div>
-        <div className="section-info">
-          <div className="jumbotron">
-            <div className="jumbotron-aside">
-              <div className="jumbotron-aside-header">
-                <div className="jumbotron-img">
-                  <img
-                    src={data.acteurs[currentActor].images.icon}
-                    alt={data.acteurs[currentActor].name}
-                  />
-                </div>
-              </div>
-              <div className="jumbotron-aside-body">
-                <h2>
-                  <span>{data.acteurs[currentActor].name}</span>
-                </h2>
+      </div>
+      <div className="section-info">
+        <div className="jumbotron">
+          <div className="jumbotron-aside">
+            <div className="jumbotron-aside-header">
+              <div className="jumbotron-img">
+                <img
+                  src={data.acteurs[currentActor].images.icon}
+                  alt={data.acteurs[currentActor].name}
+                />
               </div>
             </div>
-            <div className="jumbotron-body">
-              <div className="jumbotron-description">
-                <p>{data.acteurs[currentActor].commentaire}</p>
-              </div>
+            <div className="jumbotron-aside-body">
+              <h2>
+                <span>{data.acteurs[currentActor].name}</span>
+              </h2>
+            </div>
+          </div>
+          <div className="jumbotron-body">
+            <div className="jumbotron-description">
+              <p>{data.acteurs[currentActor].commentaire}</p>
             </div>
           </div>
         </div>

@@ -4,8 +4,6 @@ html {
 
 body {
   font-family: 'Kumbh Sans', sans-serif;
-  width: 1440px;
-  margin: 0 auto;
 }
 
 .main {
@@ -15,6 +13,11 @@ body {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+}
+
+.home {
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .section-text {

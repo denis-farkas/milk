@@ -5,7 +5,7 @@ import './home-mobile.css';
 
 function Home() {
   return (
-    <div className="main">
+    <div className="main home">
       <div className="section-text">
         <div className="subtitle">Controverse</div>
         <div className="title">

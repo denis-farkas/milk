@@ -1,13 +1,22 @@
 .mode {
   padding: 3rem 0rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  width: 100%;
+  text-align: center;
 }
 
 .section-bread {
-  margin-top: 2rem;
+  margin: 1.5rem auto;
 }
 
 .bread {
-  margin: 3rem 0;
+  margin: 1rem 0;
 }
 
 .legend {

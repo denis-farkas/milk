@@ -169,10 +169,8 @@
   box-shadow: 0 0 0 1px #ccc;
 }
 .flat .bouton:hover,
-.flat .bouton:focus,
-.flat .bouton:hover:after,
-.flat .bouton:focus:after {
-  background: #9eeb62;
+.flat .bouton:hover:after {
+  background: #bfe7a0;
 }
 
 .breadcrumb .bouton.active {

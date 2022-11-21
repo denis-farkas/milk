@@ -4,6 +4,7 @@
   width: 1440px;
   margin: 0 auto;
 }
+
 .section-ages {
   width: 100%;
 }
@@ -28,16 +29,17 @@
 }
 
 .card-age.active {
-  border: 2px solid green;
+  border: 2px solid #78bde5d7;
+  background-color: #78bde5d7;
 }
 
-.age {
+.image-age {
   width: auto;
   height: 140px;
   margin: 1rem auto;
 }
 
-.age img {
+.image-age img {
   width: auto;
   height: 140px;
 }
@@ -49,13 +51,13 @@
   margin-block-end: 0;
   text-align: center;
 }
-.section-ages-body {
+.section-recommandations {
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
   margin-top: 1rem;
 }
-.section-bread {
+.bread-recommandations {
   width: 230px;
   display: flex;
   justify-content: flex-end;
@@ -68,7 +70,7 @@
   width: 90%;
 }
 
-.breadcrumb {
+.breadcrumb-age {
   /*centering*/
   display: flex;
   flex-wrap: wrap;
@@ -77,10 +79,81 @@
   overflow: hidden;
   border-radius: 5px;
 }
+
+.breadcrumb-age .bouton {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  border: none;
+  height: 90px;
+  width: 180px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px 0 0 5px;
+}
+
+.breadcrumb-age .bouton .avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  width: 56px;
+  height: 56px;
+  margin: 0 1rem;
+  background-color: white;
+}
+
+.breadcrumb-age .bouton .avatar img {
+  width: auto;
+  height: 90%;
+}
+
+.breadcrumb-age .bouton .avatar-text {
+  z-index: 2;
+}
+.breadcrumb-age .bouton .avatar-text p {
+  margin-left: 5px;
+  color: black;
+  font-size: 12px;
+  width: 70px;
+  height: auto;
+}
+
+.breadcrumb-age .bouton {
+  background-color: rgb(30, 196, 221);
+}
+.breadcrumb-age .bouton:after {
+  background-color: rgb(30, 196, 221);
+}
+
+.breadcrumb-age .bouton:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -45px; /*half of square's length*/
+  /*same dimension as the line-height of .breadcrumb a */
+  width: 90px;
+  height: 90px;
+  /*as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's: 
+	length = 1; diagonal = (1^2 + 1^2)^0.5 = 1.414 (pythagoras theorem)
+	if diagonal required = 1; length = 1/1.414 = 0.707*/
+  transform: scale(0.707) rotate(45deg);
+  /*we need to prevent the arrows from getting buried under the next link*/
+  z-index: 1;
+  border-radius: 0 5px 0 50px;
+}
+
 .legend {
   display: none;
 }
 
-.breadcrumb .bouton:last-child:after {
+.breadcrumb-age .bouton:last-child:after {
   content: '';
+}
+
+.breadcrumb-age .bouton.active {
+  background: #9eeb62;
+}
+.breadcrumb-age .bouton.active:after {
+  background: #9eeb62;
 }

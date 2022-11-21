@@ -40,10 +40,11 @@ function Recommandations() {
                 tabIndex={j}
                 onClick={() => {
                   setCurrentAge(j);
+                  setCurrentActor(0);
                   logoIsActived(j);
                 }}
               >
-                <div className="age">
+                <div className="image-age">
                   <img src={age.logo} alt={age.name} />
                 </div>
                 <div className="legend-age">
@@ -54,31 +55,29 @@ function Recommandations() {
           })}
         </div>
       </div>
-      <div className="section-ages-body">
-        <div className="section-bread">
-          <div className="bread">
-            <div className="breadcrumb flat">
-              {data.recommandations[currentAge].recommande.map((acteur, i) => {
-                return (
-                  <div
-                    key={i}
-                    className={`bouton ${isActived(i) ? ' active' : ''}`}
-                    tabIndex={i}
-                    onClick={() => {
-                      setCurrentActor(i);
-                      isActived(i);
-                    }}
-                  >
-                    <div className="avatar">
-                      <img src={acteur.logo} alt={acteur.name} />
-                    </div>
-                    <div className="avatar-text">
-                      <p>{acteur.name}</p>
-                    </div>
+      <div className="section-recommandations">
+        <div className="bread-recommandations">
+          <div className="breadcrumb-age flat">
+            {data.recommandations[currentAge].recommande.map((acteur, i) => {
+              return (
+                <div
+                  key={i}
+                  className={`bouton ${isActived(i) ? ' active' : ''}`}
+                  tabIndex={i}
+                  onClick={() => {
+                    setCurrentActor(i);
+                    isActived(i);
+                  }}
+                >
+                  <div className="avatar">
+                    <img src={acteur.logo} alt={acteur.name} />
                   </div>
-                );
-              })}
-            </div>
+                  <div className="avatar-text">
+                    <p>{acteur.name}</p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
         <div className="section-info">

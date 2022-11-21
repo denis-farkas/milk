@@ -57,7 +57,7 @@
     {
       "name": "Sphère médicale et scientifique tranchée",
       "images": {
-        "icon": "./assets/avatars/medical.png"
+        "icon": "./assets/avatars/medic.png"
       },
       "consommation": "Promote",
       "commentaire": "Figure du médecin généraliste (tranchée) : considère le lait comme un super aliment dont il ne faudrait pas se priver, même la question de l’intolérance au lactose est plutôt critiquée par le monde médicale, qui pousse les personnes en situation d’inconfort à trouver un seuil de tolérance dans leur consommation de lait.",
@@ -77,7 +77,7 @@
   "recommandations": [
     {
       "name": "Enfant",
-      "description": "(de trois ans à la puberté; moins de 14ans)",
+      "description": "(de trois ans à la puberté)",
       "logo": "./assets/logo/enfant.png",
       "recommande": [
         {

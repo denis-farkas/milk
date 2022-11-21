@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,gBAAgB,CAAC;IACf,KAAK,EAAE,IAAI;GACZ",
+    "sources": [
+        "recommandations-mobile.scss"
+    ],
+    "names": [],
+    "file": "recommandations-mobile.css"
+}

@@ -1,0 +1,86 @@
+.recommandations {
+  padding: 3rem 0rem;
+  flex-wrap: wrap;
+  width: 1440px;
+  margin: 0 auto;
+}
+.section-ages {
+  width: 100%;
+}
+
+.ages {
+  width: 60%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem auto;
+}
+
+.card-age {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+.card-age.active {
+  border: 2px solid green;
+}
+
+.age {
+  width: auto;
+  height: 140px;
+  margin: 1rem auto;
+}
+
+.age img {
+  width: auto;
+  height: 140px;
+}
+.legend-age {
+  width: 100%;
+}
+.legend-age h5 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-align: center;
+}
+.section-ages-body {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-top: 1rem;
+}
+.section-bread {
+  width: 230px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1.5rem 1rem;
+}
+
+.section-info {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.breadcrumb {
+  /*centering*/
+  display: flex;
+  flex-wrap: wrap;
+  width: 230px;
+  box-shadow: none;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.legend {
+  display: none;
+}
+
+.breadcrumb .bouton:last-child:after {
+  content: '';
+}

@@ -57,7 +57,7 @@
     {
       "name": "Sphère médicale et scientifique tranchée",
       "images": {
-        "icon": "./assets/avatars/medical.png"
+        "icon": "./assets/avatars/medic.png"
       },
       "consommation": "Promote",
       "commentaire": "Figure du médecin généraliste (tranchée) : considère le lait comme un super aliment dont il ne faudrait pas se priver, même la question de l’intolérance au lactose est plutôt critiquée par le monde médicale, qui pousse les personnes en situation d’inconfort à trouver un seuil de tolérance dans leur consommation de lait.",
@@ -77,65 +77,67 @@
   "recommandations": [
     {
       "name": "Enfant",
-      "description": "(de trois ans à la puberté; moins de 14ans)",
-      "logo": "./assets/logo/enfant.png",
+      "description": "(de trois ans à la puberté)",
+      "logo": "./assets/avatars/enfant.png",
       "recommande": [
         {
-          "medical": {
-            "description": "Sphère médicale",
-            "logo": "./assets/avatars/medical.png",
-            "texte": [
-              {
-                "description": "50% de certitude entre consommation lait et résistance os, ostéoporose",
-                "image": "./assets/logo/os.png",
-                "alt": "logo os"
-              },
-              {
-                "description": "Obésité plus tard 80%",
-                "image": "./assets/logo/balance.png",
-                "alt": "logo balance"
-              },
-              {
-                "description": "Prévient maladies cardio-vasculaire",
-                "image": "./assets/logo/coeur.png",
-                "alt": "logo coeur"
-              }
-            ]
-          },
-          "associations": {
-            "description": "Associations de consommateurs",
-            "logo": "./assets/avatars/famille.png",
-            "texte": {
+          "name": "Sphère médicale",
+          "logo": "./assets/avatars/medical.png",
+          "texte": [
+            {
+              "description": "50% de certitude entre consommation lait et résistance os, ostéoporose",
+              "image": "./assets/logo/os.png",
+              "alt": "logo os"
+            },
+            {
+              "description": "Obésité plus tard 80%",
+              "image": "./assets/logo/balance.png",
+              "alt": "logo balance"
+            },
+            {
+              "description": "Prévient maladies cardio-vasculaire",
+              "image": "./assets/logo/coeur.png",
+              "alt": "logo coeur"
+            }
+          ]
+        },
+        {
+          "name": "Associations de consommateurs",
+          "logo": "./assets/avatars/famille.png",
+          "texte": [
+            {
               "description": "Culture de boire du lait (rapport à l’éducation, classes sociales qui donne à boire du lait pour le petit dej car c’est un élément positif pour le dvp)",
               "image": "",
               "alt": ""
             }
-          },
-          "experts": {
-            "description": "Communauté d’expertise, agences et institutions",
-            "logo": "./assets/avatars/expert.png",
-            "texte": [
-              {
-                "description": "de 3 produit laitier pendant l’enfance PNNS Haut Conseil de la santé",
-                "image": "",
-                "alt": ""
-              },
-              {
-                "description": "ANSES : entre 700 et 1200 mg/jour calcium",
-                "image": "",
-                "alt": ""
-              }
-            ]
-          },
-          "industrie": {
-            "description": "Industries laitières et producteurs laitiers",
-            "logo": "./assets/avatars/indprod.png",
-            "texte": {
+          ]
+        },
+        {
+          "name": "Communauté d’expertise, agences et institutions",
+          "logo": "./assets/avatars/expert.png",
+          "texte": [
+            {
+              "description": "de 3 produit laitier pendant l’enfance PNNS Haut Conseil de la santé",
+              "image": "",
+              "alt": ""
+            },
+            {
+              "description": "ANSES : entre 700 et 1200 mg/jour calcium",
+              "image": "",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "name": "Industries laitières et producteurs laitiers",
+          "logo": "./assets/avatars/indprod.png",
+          "texte": [
+            {
               "description": "Lobbys recommandent la consommation de lait chez les enfants",
               "image": "",
               "alt": ""
             }
-          }
+          ]
         }
       ]
     },
@@ -145,123 +147,130 @@
       "logo": "./assets/avatars/adulte.png",
       "recommande": [
         {
-          "medical": {
-            "description": "Sphère médicale",
-            "logo": "./assets/avatars/medical.png",
-            "texte": [
-              {
-                "description": "Maladies cardiovasculaires (baisse 50%, ne baisse pas 20%, augmente 30%)",
-                "image": "./assets/logo/coeur.png",
-                "alt": "logo coeur"
-              },
-              {
-                "description": "Réduit les fractures 50% ",
-                "image": "./assets/logo/os.png",
-                "alt": "logo os"
-              },
-              {
-                "description": "Bon pour la flore intestinale",
-                "image": "./assets/logo/pizza.png",
-                "alt": "logo nutrition"
-              }
-            ]
-          },
-          "associations": {
-            "description": "Associations de consommateurs",
-            "logo": "./assets/avatars/famille.png",
-            "texte": {
+          "name": "Sphère médicale",
+          "logo": "./assets/avatars/medical.png",
+          "texte": [
+            {
+              "description": "Maladies cardiovasculaires (baisse 50%, ne baisse pas 20%, augmente 30%)",
+              "image": "./assets/logo/coeur.png",
+              "alt": "logo coeur"
+            },
+            {
+              "description": "Réduit les fractures 50% ",
+              "image": "./assets/logo/os.png",
+              "alt": "logo os"
+            },
+            {
+              "description": "Bon pour la flore intestinale",
+              "image": "./assets/logo/pizza.png",
+              "alt": "logo nutrition"
+            }
+          ]
+        },
+        {
+          "name": "Associations de consommateurs",
+          "logo": "./assets/avatars/famille.png",
+          "texte": [
+            {
               "description": "Consommation de lait remise en cause au regard du bien êtreanimal (véganisme), montée del’intolérance au lactose.Scepticisme et complotisme",
               "image": "",
               "alt": ""
             }
-          },
-          "experts": {
-            "description": "Communauté d’expertise, agences et institutions",
-            "logo": "./assets/avatars/expert.png",
-            "texte": [
-              {
-                "description": "ANSES : 750 et 869mg/jour calcimum",
-                "image": "",
-                "alt": ""
-              },
-              {
-                "description": "OMS : 450/500 mg/jour calcium",
-                "image": "",
-                "alt": ""
-              },
-              {
-                "description": "UE: autorité de sécurité alimentaire 2,5g max",
-                "image": "",
-                "alt": ""
-              },
-              {
-                "description": "PNNS 4 : Entre 2 à 4 produits laitiers/jour",
-                "image": "",
-                "alt": ""
-              }
-            ]
-          },
-          "industrie": {
-            "description": "Industries laitières et producteurs laitiers",
-            "logo": "./assets/avatars/indprod.png",
-            "texte": {
+          ]
+        },
+        {
+          "name": "Communauté d’expertise, agences et institutions",
+          "logo": "./assets/avatars/expert.png",
+          "texte": [
+            {
+              "description": "ANSES : 750 et 869mg/jour calcimum",
+              "image": "",
+              "alt": ""
+            },
+            {
+              "description": "OMS : 450/500 mg/jour calcium",
+              "image": "",
+              "alt": ""
+            },
+            {
+              "description": "UE: autorité de sécurité alimentaire 2,5g max",
+              "image": "",
+              "alt": ""
+            },
+            {
+              "description": "PNNS 4 : Entre 2 à 4 produits laitiers/jour",
+              "image": "",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "name": "Industries laitières et producteurs laitiers",
+          "logo": "./assets/avatars/indprod.png",
+          "texte": [
+            {
               "description": "Lobbys recommandent la consommation de lait (pour le sportif, bénéfice sur la santé), actions de com indirectes, via le politique",
               "image": "",
               "alt": ""
             }
-          }
+          ]
         }
       ]
     },
+
     {
       "name": "Personne Agée",
       "description": "",
-      "logo": "./assets/logo/ancien.png",
+      "logo": "./assets/avatars/ancien.png",
       "recommande": [
         {
-          "medical": {
-            "description": "Sphère médicale",
-            "logo": "./assets/avatars/medical.png",
-            "texte": [
-              {
-                "description": "Ostéoporose : baisse du risque fractures : 50% ",
-                "image": "./assets/logo/os.png",
-                "alt": "logo os"
-              },
-              {
-                "description": "Augmente cancer de la prostate 50% ",
-                "image": "./assets/logo/bacterie.png",
-                "alt": "logo maladie"
-              }
-            ]
-          },
-          "associations": {
-            "description": "Associations de consommateurs",
-            "logo": "./assets/avatars/famille.png",
-            "texte": {
+          "name": "Sphère médicale",
+          "logo": "./assets/avatars/medical.png",
+          "texte": [
+            {
+              "description": "Ostéoporose : baisse du risque fractures : 50% ",
+              "image": "./assets/logo/os.png",
+              "alt": "logo os"
+            },
+            {
+              "description": "Augmente cancer de la prostate 50% ",
+              "image": "./assets/logo/bacterie.png",
+              "alt": "logo maladie"
+            }
+          ]
+        },
+        {
+          "name": "Associations de consommateurs",
+          "logo": "./assets/avatars/famille.png",
+          "texte": [
+            {
               "description": "Consommation de lait remise en cause au regard du bien être animal (véganisme), montée del’intolérance au lactose.Scepticisme et complotisme",
               "image": "",
               "alt": ""
             }
-          },
-          "experts": {
-            "description": "Communauté d’expertise, agences et institutions",
-            "logo": "./assets/avatars/expert.png",
-            "texte": {
+          ]
+        },
+        {
+          "name": "Communauté d’expertise, agences et institutions",
+          "logo": "./assets/avatars/expert.png",
+          "texte": [
+            {
               "description": "150ml de lait pour les personnes de plus de 75ans d’après le PNNS 4 (passage de 3 à 4 produits laitiers par jour, 2021)",
               "image": "",
               "alt": ""
             }
-          },
-          "industrie": {
-            "description": "Industries laitières et producteurs laitiers",
-            "logo": "./assets/avatars/indprod.png",
-            "texte": {
+          ]
+        },
+        {
+          "name": "Industries laitières et producteurs laitiers",
+          "logo": "./assets/avatars/indprod.png",
+          "texte": [
+            {
               "description": "Communication indirecte mais produits transformés des industries du lait autour des bienfaits sur la santé (cholestérol.), fractures..)  ",
               "image": "",
               "alt": ""
             }
-          }
+          ]
         }
       ]
     }

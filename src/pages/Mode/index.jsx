@@ -82,6 +82,11 @@ function Mode() {
           </div>
         </div>
       </div>
+      <div className="footer">
+        <Link to="/recommandations">
+          <button className="plus">Selon les ages ...</button>
+        </Link>
+      </div>
     </div>
   );
 }

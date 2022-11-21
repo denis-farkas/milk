@@ -31,10 +31,6 @@
   justify-content: center;
 }
 
-.legend-text h3 {
-  color: #0aa6be;
-}
-
 .legend-text:nth-child(2) {
   width: 20%;
 }
@@ -69,11 +65,19 @@
 }
 .breadcrumb .bouton .avatar-text p {
   margin-left: 5px;
-  color: black;
+  color: white;
   font-size: 12px;
   width: 70px;
   height: auto;
+  font-weight: 700;
+  letter-spacing: 0.3px;
 }
+
+.breadcrumb .bouton.active .avatar-text p,
+.breadcrumb .bouton:hover .avatar-text p {
+  color: #135194;
+}
+
 /*since the first link does not have a triangle before it we can reduce the left padding to make it look consistent with other links*/
 .breadcrumb .bouton:first-child {
   border-radius: 5px 0 0 5px; /*to match with the parent's radius*/
@@ -84,10 +88,10 @@
 }
 
 .breadcrumb .bouton:nth-child(1) {
-  background-color: rgb(210, 213, 213);
+  background-color: rgb(192, 194, 194);
 }
 .breadcrumb .bouton:nth-child(1):after {
-  background-color: rgb(210, 213, 213);
+  background-color: rgb(192, 194, 194);
 }
 .breadcrumb .bouton:nth-child(2) {
   background-color: rgb(172, 173, 173);
@@ -114,23 +118,23 @@
   background-color: rgb(102, 201, 216);
 }
 .breadcrumb .bouton:nth-child(6) {
-  background-color: rgb(30, 196, 221);
+  background-color: #2781e2;
 }
 .breadcrumb .bouton:nth-child(6):after {
-  background-color: rgb(30, 196, 221);
+  background-color: #2781e2;
 }
 .breadcrumb .bouton:nth-child(7) {
-  background-color: rgb(26, 173, 196);
+  background-color: #1c68b9;
 }
 .breadcrumb .bouton:nth-child(7):after {
-  background-color: rgb(26, 173, 196);
+  background-color: #1c68b9;
 }
 
 .breadcrumb .bouton:nth-child(8) {
-  background-color: rgb(3, 165, 202);
+  background-color: #135194;
 }
 .breadcrumb .bouton:nth-child(8):after {
-  background-color: rgb(3, 165, 202);
+  background-color: #135194;
 }
 
 /*adding the arrows for the breadcrumbs using rotated pseudo elements*/
@@ -179,6 +183,18 @@
 .flat .bouton:hover,
 .flat .bouton:hover:after {
   background: #bfe7a0;
+}
+
+.first {
+  color: rgb(152, 154, 154);
+}
+
+.second {
+  color: rgb(102, 201, 216);
+}
+
+.third {
+  color: #135194;
 }
 
 .breadcrumb .bouton.active {

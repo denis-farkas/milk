@@ -75,12 +75,12 @@
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  width: 100%;
-  margin-top: 1rem;
+  width: 90%;
+  margin: 1rem auto;
 }
 
 .bread-recommandations {
-  width: 230px;
+  width: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,14 +90,14 @@
   margin: 1.5rem 1rem;
 }
 
-.section-info {
+.section-recom-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 90%;
+  width: 80%;
 }
 
 .breadcrumb-age {
@@ -159,18 +159,25 @@
 
 .breadcrumb-age .bouton .avatar-text p {
   margin-left: 5px;
-  color: black;
+  color: white;
   font-size: 12px;
   width: 70px;
   height: auto;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.breadcrumb-age .bouton.active .avatar-text p,
+.breadcrumb-age .bouton:hover .avatar-text p {
+  color: #203e5a;
 }
 
 .breadcrumb-age .bouton {
-  background-color: #1ec4dd;
+  background-color: #4986c0;
 }
 
 .breadcrumb-age .bouton:after {
-  background-color: #1ec4dd;
+  background-color: #4986c0;
 }
 
 .breadcrumb-age .bouton:after {
@@ -190,10 +197,6 @@
   /*we need to prevent the arrows from getting buried under the next link*/
   z-index: 1;
   border-radius: 0 5px 0 50px;
-}
-
-.legend {
-  display: none;
 }
 
 .breadcrumb-age .bouton:last-child:after {

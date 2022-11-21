@@ -40,10 +40,6 @@
           justify-content: center;
 }
 
-.legend-text h3 {
-  color: #0aa6be;
-}
-
 .legend-text:nth-child(2) {
   width: 20%;
 }
@@ -89,10 +85,17 @@
 
 .breadcrumb .bouton .avatar-text p {
   margin-left: 5px;
-  color: black;
+  color: white;
   font-size: 12px;
   width: 70px;
   height: auto;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.breadcrumb .bouton.active .avatar-text p,
+.breadcrumb .bouton:hover .avatar-text p {
+  color: #135194;
 }
 
 /*since the first link does not have a triangle before it we can reduce the left padding to make it look consistent with other links*/
@@ -107,11 +110,11 @@
 }
 
 .breadcrumb .bouton:nth-child(1) {
-  background-color: #d2d5d5;
+  background-color: #c0c2c2;
 }
 
 .breadcrumb .bouton:nth-child(1):after {
-  background-color: #d2d5d5;
+  background-color: #c0c2c2;
 }
 
 .breadcrumb .bouton:nth-child(2) {
@@ -147,27 +150,27 @@
 }
 
 .breadcrumb .bouton:nth-child(6) {
-  background-color: #1ec4dd;
+  background-color: #2781e2;
 }
 
 .breadcrumb .bouton:nth-child(6):after {
-  background-color: #1ec4dd;
+  background-color: #2781e2;
 }
 
 .breadcrumb .bouton:nth-child(7) {
-  background-color: #1aadc4;
+  background-color: #1c68b9;
 }
 
 .breadcrumb .bouton:nth-child(7):after {
-  background-color: #1aadc4;
+  background-color: #1c68b9;
 }
 
 .breadcrumb .bouton:nth-child(8) {
-  background-color: #03a5ca;
+  background-color: #135194;
 }
 
 .breadcrumb .bouton:nth-child(8):after {
-  background-color: #03a5ca;
+  background-color: #135194;
 }
 
 /*adding the arrows for the breadcrumbs using rotated pseudo elements*/
@@ -230,6 +233,18 @@
 .flat .bouton:hover,
 .flat .bouton:hover:after {
   background: #bfe7a0;
+}
+
+.first {
+  color: #989a9a;
+}
+
+.second {
+  color: #66c9d8;
+}
+
+.third {
+  color: #135194;
 }
 
 .breadcrumb .bouton.active {

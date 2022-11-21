@@ -46,13 +46,13 @@ function Mode() {
             })}
           </div>
           <div className="legend">
-            <div className="legend-text">
+            <div className="legend-text first">
               <h3>Prohibition</h3>
             </div>
-            <div className="legend-text">
+            <div className="legend-text second">
               <h3>Modération</h3>
             </div>
-            <div className="legend-text">
+            <div className="legend-text third">
               <h3>Promotion</h3>
             </div>
           </div>

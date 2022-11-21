@@ -80,7 +80,7 @@ function Recommandations() {
             })}
           </div>
         </div>
-        <div className="section-info">
+        <div className="section-recom-info">
           <div className="jumbotron">
             <div className="jumbotron-aside">
               <div className="jumbotron-aside-header">

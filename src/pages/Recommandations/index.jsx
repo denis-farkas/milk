@@ -126,6 +126,11 @@ function Recommandations() {
           </div>
         </div>
       </div>
+      <div className="footer">
+        <Link to="/themes">
+          <button className="plus">Thèmes...</button>
+        </Link>
+      </div>
     </div>
   );
 }

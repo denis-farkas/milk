@@ -29,7 +29,7 @@ const Navigation = () => {
           to={`/themes`}
           className={(nav) => (nav.isActive ? 'nav active' : 'nav')}
         >
-          <div className="nav-item">Thémes</div>
+          <div className="nav-item">Thèmes</div>
         </NavLink>
       </div>
     </div>

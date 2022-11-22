@@ -18,7 +18,7 @@ function Mode() {
 
   return (
     <div className="main mode">
-      <div className="subtitle">
+      <div className="subtitle center">
         Modes de consommation selon le type d'acteur
       </div>
       <div className="section-bread">

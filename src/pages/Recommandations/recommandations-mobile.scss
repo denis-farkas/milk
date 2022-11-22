@@ -1,5 +1,70 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .recommandations {
     width: 100%;
+  }
+  .ages {
+    width: 95%;
+  }
+  .card-age {
+    width: 30%;
+    height: auto;
+  }
+
+  .image-age {
+    width: auto;
+    height: 100px;
+    margin: 0.5rem auto;
+    text-align: center;
+  }
+  .image-age img {
+    width: 70%;
+    height: auto;
+  }
+  .legend-age {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 768px) {
+    .breadcrumb-age {
+      width: 90px;
+      margin: 0.5rem auto;
+      justify-content: space-evenly;
+    }
+    .breadcrumb-age .bouton:after {
+      content: none;
+    }
+    .breadcrumb-age .bouton .avatar-text {
+      display: none;
+    }
+
+    .breadcrumb-age .bouton {
+      height: 70px;
+      width: 70px;
+      border-radius: 100%;
+      justify-content: center;
+      margin-bottom: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .breadcrumb-age .bouton .avatar {
+      height: 60px;
+      width: 60px;
+      margin: 0;
+    }
+
+    .breadcrumb-age .bouton .avatar img {
+      width: auto;
+      height: 40px;
+    }
+
+    .breadcrumb-age .bouton:first-child {
+      border-radius: 100%;
+    }
+
+    .breadcrumb-age .bouton:last-child {
+      border-radius: 100%;
+    }
+    .breadcrumb-age .bouton:last-child:after {
+      content: none;
+    }
   }
 }

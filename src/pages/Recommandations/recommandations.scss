@@ -160,3 +160,19 @@
 .breadcrumb-age .bouton.active:after {
   background: #9eeb62;
 }
+
+ul li {
+  list-style: none;
+  margin: 20px 0;
+  line-height: 1;
+}
+
+.liste li span {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.liste li span img {
+  width: 30px;
+  height: 30px;
+}

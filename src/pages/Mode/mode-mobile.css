@@ -1,10 +1,12 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .mode {
     width: 100%;
   }
   .subtitle {
+    width: 100%;
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    text-align: center;
   }
   .section-bread {
     width: 235px;
@@ -79,10 +81,13 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 768px) {
   .section-bread {
     width: 95%;
     margin: 0.5rem auto;
+  }
+  .section-info {
+    margin: 0 auto;
   }
   .subtitle {
     font-size: 1.3rem;

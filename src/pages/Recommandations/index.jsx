@@ -27,7 +27,7 @@ function Recommandations() {
 
   return (
     <div className="main recommandations">
-      <div className="subtitle">
+      <div className="subtitle center">
         Recommandations selon les âges et les acteurs
       </div>
       <div className="section-ages">

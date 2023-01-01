@@ -17,10 +17,53 @@ body {
   margin: 0 auto;
 }
 
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  border-bottom: 1px solid hsl(220, 14%, 75%);
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.header-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+}
+
+.header-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3c6e9c;
+}
+
+.header-left img {
+  width: 5rem;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 0rem;
+}
+
 .section-text {
   width: 100%;
   flex-direction: column;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .subtitle {

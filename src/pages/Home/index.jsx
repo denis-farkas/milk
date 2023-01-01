@@ -1,5 +1,4 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import Navigation from '../../components/Navigation';
 import Mode from '../../components/Mode';
 import './home.css';
 import './home-mobile.css';
@@ -9,7 +8,15 @@ import TabComp from '../../components/TabComp';
 function Home() {
   return (
     <>
-      <div className="main home">
+      <div className="main home" id="Accueil">
+        <div className="header">
+          <div className="header-left">
+            <img src="assets/images/logo.jpg" alt="logo" />
+          </div>
+          <div className="header-right">
+            <Navigation />
+          </div>
+        </div>
         <div className="section-text">
           <p className="subtitle">Controverse</p>
           <h1 className="title">
@@ -139,15 +146,15 @@ function Home() {
             de ce dernier.
           </p>
         </div>
-        <div className="separate">
+        <div className="separate" id="Mode">
           <img src="assets/images/arrow-down.png" alt="arrow-down" />
         </div>
         <Mode />
-        <div className="separate">
+        <div className="separate" id="Consommation">
           <img src="assets/images/arrow-down.png" alt="arrow-down" />
         </div>
         <Recommandations />
-        <div className="separate">
+        <div className="separate" id="Theme">
           <img src="assets/images/arrow-down.png" alt="arrow-down" />
         </div>
         <TabComp />

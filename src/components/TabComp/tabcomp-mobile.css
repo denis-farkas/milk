@@ -1,0 +1,18 @@
+@media screen and (max-width: 1024px) {
+  .theme {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .themes {
+    width: 80%;
+  }
+  .card-theme {
+    width: 23%;
+    margin: 0.5rem;
+  }
+  .image-theme img {
+    width: 85%;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=tabcomp-mobile.css.map */

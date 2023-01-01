@@ -2,6 +2,9 @@
   .recommandations {
     width: 100%;
   }
+  .title-mode {
+    font-size: 2rem;
+  }
   .ages {
     width: 95%;
   }
@@ -22,9 +25,9 @@
   .legend-age {
     font-size: 12px;
   }
-}
-
-@media screen and (max-width: 1024px) and (max-width: 768px) {
+  .bread-recommandations {
+    margin: 1rem 0;
+  }
   .breadcrumb-age {
     width: 90px;
     margin: 0.5rem auto;

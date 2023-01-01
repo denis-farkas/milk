@@ -1,3 +1,15 @@
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 12px;
+  }
+  .home {
+    width: 100%;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   html {
     font-size: 16px;
@@ -12,15 +24,12 @@
   }
   .section-text {
     width: 90%;
-    margin: 2rem auto;
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    margin: 0.5rem auto;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .title h1 {
+  .title {
     text-align: center;
     font-size: 3rem;
     width: 100%;
@@ -29,33 +38,10 @@
     text-align: center;
   }
   .section-image {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-    width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 0;
-    position: relative;
-    background-image: none;
+    display: none;
   }
-  .section-image img {
-    width: 100%;
-    height: auto;
-    margin-right: 0;
-  }
-  .first-legend {
-    position: absolute;
-    top: 10rem;
-    right: 14rem;
-    color: white;
-  }
-  .second-legend {
-    position: absolute;
-    top: 12rem;
-    right: 14rem;
-    color: white;
+  .jumbo {
+    width: 98%;
   }
   .center {
     width: 80%;

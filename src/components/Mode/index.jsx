@@ -18,9 +18,9 @@ function Mode() {
 
   return (
     <div className="main mode">
-      <div className="subtitle center">
+      <h1 className="title-mode">
         Modes de consommation selon le type d'acteur
-      </div>
+      </h1>
       <div className="section-bread">
         <div className="bread">
           <div className="breadcrumb flat">
@@ -81,11 +81,6 @@ function Mode() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="footer">
-        <Link to="/recommandations">
-          <button className="plus">Selon les ages ...</button>
-        </Link>
       </div>
     </div>
   );

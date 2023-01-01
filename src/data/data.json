@@ -1,22 +1,20 @@
 {
   "acteurs": [
     {
-      "name": "Complotistes",
+      "name": "Dissidents",
       "images": {
         "icon": "./assets/avatars/complotiste.png"
       },
       "consommation": "Stop",
-      "commentaire": "histoire du lait dans les écoles et de la proximité avec les lobbys des industriels laitiers.dvp de médecines alternatives.Faire le lien entre médecine chinoise et le fait que culturellement le lait est beaucoup moins recommandé dans ces zones géographiques",
-      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+      "commentaire": "La construction d’un discours qui se veut en rupture totale avec la consommation de lait se fonde bien souvent sur la dénonciation d’un lobby « pro-lait » très puissant, qui s’incarne par des organisations comme le Centre National Interprofessionnel de l'Economie Laitière (CNIEL) ou de grandes firmes comme Lactalis. Dans une posture de « David contre Goliath », ces acteurs revendiquent leur droit à émettre un discours dissident. On peut également mettre en avant des revendications pour une alimentation « alternative » qui entre en contraste avec les recommandations nationales. Depuis l’introduction du lait dans les écoles dans les années 1950, le lait est en effet perçu comme un instrument de santé publique. Opter pour une autre alimentation (lait végétal notamment) s’inscrit donc aussi dans la recherche d’une alimentation saine qui soit alternative."
     },
     {
-      "name": "Végans et militants bien-être animal",
+      "name": "Végans et militants du bien-être animal",
       "images": {
         "icon": "./assets/avatars/vegan.png"
       },
       "consommation": "Stop",
-      "commentaire": "Contestent l’industrialisation de la production laitière : sur-production (mis en avant par arrêt scandale des quotas laitiers et scandale du lait infantile).Boire des produits laitiers = participation à l’exploitation de l’animal au même titre que le manger.Se rabattent sur des alternatives pour avoir du calcium : légumes verts et laits végétaux",
-      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+      "commentaire": "Ces acteurs dénoncent la dimension industrielle et productiviste de l’industrie laitière. La surproduction est aussi perçue comme un problème sanitaire (scandales du lait infantile, des quotas laitiers…). De manière générale, la condition animale va être prise en compte : consommer des produits laitiers va être jugé comme une consommation de l’animal en tant que tel, au vu des conditions dégradantes dans lesquelles ce dernier évolue. Pour le cas des vegans, une consommation hors de toute exploitation animale est souvent soumise à l’examen de sa viabilité sur le plan nutritionnel. Dès lors, la question de la teneur en protéines et en calcium des aliments d’origine végétale est souvent mise en avant par ces acteurs, faisant passer le lait comme pas forcément nécessaire pour avoir une alimentation « équilibrée »."
     },
     {
       "name": "Intolérants au lactose, allergiques",
@@ -24,8 +22,7 @@
         "icon": "./assets/avatars/intolerant.png"
       },
       "consommation": "Stop",
-      "commentaire": "intolérance au lactose est souvent surestimée par les individus parfois confondu avec maladie du colon irritable % de personnes intolérants au lactose en France/en Europe ? => 70% n’ont plus ou pas la mutation génétique permettant d’avoir du lactase + 80% en Afrique et en Asie ne digèrent pas le lait Présenter histoire de l’enzyme du lactase ? (il y a 10 000 ans etc.) présenter le mécanisme du lactose/lactase Intolérance au lactose = recherche d’alternatives végétales",
-      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+      "commentaire": "Les intolérants aux lactose se font de plus en plus nombreux, ce qui peut s’expliquer notamment par une perte bien réelle de notre capacité d’assimilation, due à des modes de vie de moins en moins fondées sur l’exploitation animale et au contact des bêtes au quotidien. Le lait contient en effet la lactase, une molécule difficile à digérer pour l’humain. C’est par le développement d’un enzyme au cours de l’évolution de notre espèce que nous avons été capables d’assimiler plus facilement le lait. Encore aujourd’hui, au sein de l’humanité, l’enzyme permettant la digestion du lait est inégalement distribué sur la surface du globe. Les peuples asiatiques et les populations amérindiennes sont par exemple plus exposés aux effets contrariants de la lactase. Toutefois, malgré cette transformation bien réelle de notre organisme, il convient de dire que l’intolérance au lactose, souvent « auto-diagnostiquée », est surévaluée dans nos sociétés occidentales."
     },
     {
       "name": "Sphère médicale et scientifique nuancée",
@@ -33,8 +30,7 @@
         "icon": "./assets/avatars/medical.png"
       },
       "consommation": "Moderate",
-      "commentaire": "différence dans la manière de procédés d’enquêtes, pas étudié sous le même angle (biologique ou épidémiologique).",
-      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+      "commentaire": "Pour ce qui est de la médecine traditionnelle, il faut d’abord mettre en avant des différences dans les procédés d’enquête qui vont aboutir à des résultats différents lorsque l’on enquête sur le lait. Selon que le lait soit étudié sous un angle biologique ou épidémiologique, cela aboutira à une recommandation forte ou avec des réserves dans les modes de consommation. De manière générale, on observe plutôt une médecine traditionnelle favorable au lait, et une médecine douce ou alternative qui remettra plus en cause la consommation de lait."
     },
     {
       "name": "Agences d’experts étatiques et institutions",
@@ -42,8 +38,7 @@
         "icon": "./assets/avatars/expert.png"
       },
       "consommation": "Moderate",
-      "commentaire": "présentation des agences Haut Conseil pour la santé, Anses, OMS… Rappel des recommandations, explications de pourquoi les recommandations sont parfois différentes",
-      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+      "commentaire": "Différentes institutions produisent des recommandations sur la consommation de lait. Que ce soit le Haut Conseil pour la santé, l’Agence nationale des de la sécurité sanitaire et de l’alimentation (ANSES), l’Organisation mondiale de la santé (OMS). De manière générale, on constate une recommandation de consommation élevée en France. Par commodité, nous mettrons en parallèle consommation de lait et de calcium, le lait étant perçu comme « l’aliment phare » pour un apport en calcium. Le Plan national nutrition santé (PNNS) recommande de consommer trois produits laitiers par jour, quand l’ANSES recommande 900 mg de calcium. On remarque que cela est le double des recommandations de l’OMS (450 mg de calcium par jour). Ce qui conduit à penser le lait comme une « spécificité française », qui serait largement liée à nos traditions."
     },
     {
       "name": "Producteurs laitiers",
@@ -51,8 +46,7 @@
         "icon": "./assets/avatars/producteur.png"
       },
       "consommation": "Promote",
-      "commentaire": "plus observateurs que militant pour le lait (ppal pb sur le lait est le juste prix) dvp d’alternatives, bio, écrémé, facile à digérer… → montre que socialement on ne veut pas réduire la production, on cherche à produire du lait autrement, d’autre types de lait… En dit long sur l’image sociale du lait",
-      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+      "commentaire": "Les producteurs sont plus observateurs que militants en faveur du lait. Le principal problème est la rémunération de leur travail, ils soutiennent ainsi les institutions qui permettent la survie de leur commerce grâce aux subventions ou protections douanières. Il y a récemment le développement d’un certain nombre d’alternatives :  lait bio, écrémé, facile à digérer… Cela montre que socialement on ne veut pas réduire la production, on cherche plutôt à produire du lait autrement."
     },
     {
       "name": "Sphère médicale et scientifique tranchée",
@@ -60,8 +54,7 @@
         "icon": "./assets/avatars/medic.png"
       },
       "consommation": "Promote",
-      "commentaire": "Figure du médecin généraliste (tranchée) : considère le lait comme un super aliment dont il ne faudrait pas se priver, même la question de l’intolérance au lactose est plutôt critiquée par le monde médicale, qui pousse les personnes en situation d’inconfort à trouver un seuil de tolérance dans leur consommation de lait.",
-      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+      "commentaire": "Le médecin généraliste à tendance à considérer le lait comme une « super-aliment » dont il ne faudrait pas se priver. Même la question de l’intolérance au lactose est reconnue dans le monde médical, les médecins auraient plutôt tendance à pousser les patients en situation d’inconfort à trouver leur seuil de tolérance au lait afin de maintenir leur consommation."
     },
     {
       "name": "Industries laitières",
@@ -69,8 +62,7 @@
         "icon": "./assets/avatars/industrie.png"
       },
       "consommation": "Promote",
-      "commentaire": "ro-lait ++ Très puissante économiquement (chercher les chiffres du CNIEL de l’emploi, du CA…) Très puissante politiquement (activités de lobbying) Activités de communication (parler de l’article britannique sur l’industrie laitière en France) surtout centrées sur les enfants (ex : CNIEL visite dans les écoles d’une diététicienne mandatée par le CNIEL dénoncée par Hugo Clément en 2018)",
-      "themes": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatiis.Ut auctor gravida nulla. Nam id erat elementum, accumsan dui non, porttitor lorem."
+      "commentaire": "Les industries laitières sont quant à elles pro-lait de la manière la plus assumée. Ils participent notamment à la production de discours et de savoirs scientifiques (le CNIEL notamment). Ils cumulent puissance politique (lobbying) et économique."
     }
   ],
 
@@ -85,28 +77,28 @@
           "logo": "./assets/avatars/medical.png",
           "texte": [
             {
-              "description": "50% de certitude entre consommation lait et résistance os, ostéoporose",
+              "description": "50% des études montrent un lien entre la consommation de lait pendant l’enfance et une meilleure résistance des os et une plus faible occurrence d’ostéoporose en fin de vie",
               "image": "./assets/logo/os.png",
               "alt": "os"
             },
             {
-              "description": "Obésité plus tard 80%",
+              "description": "80% des études montrent un lien entre la consommation de lait et le développement de l’obésité plus tard",
               "image": "./assets/logo/bmi.png",
               "alt": "balance"
             },
             {
-              "description": "Prévient maladies cardio-vasculaire",
+              "description": "50% des études montrent également un lien avec la réduction des maladies cardio-vasculaires",
               "image": "./assets/logo/coeur.png",
               "alt": "coeur"
             }
           ]
         },
         {
-          "name": "Associations de consommateurs",
+          "name": "Consommateurs",
           "logo": "./assets/avatars/famille.png",
           "texte": [
             {
-              "description": "Culture de boire du lait (rapport à l’éducation, classes sociales qui donne à boire du lait pour le petit dej car c’est un élément positif pour le dvp)",
+              "description": "Chez les consommateurs, le lait apparaît comme un aliment indispensable dans le régime alimentaire des enfants. Il existe une importante pression chez les enfants de la part des parents",
               "image": "./assets/logo/lait.png",
               "alt": "lait"
             }
@@ -117,14 +109,19 @@
           "logo": "./assets/avatars/expert.png",
           "texte": [
             {
-              "description": "de 3 produit laitier pendant l’enfance PNNS Haut Conseil de la santé",
+              "description": "Programme national nutrition santé (PNNS) Haut Conseil de la santé : 3 produits laitiers pendant l’enfance",
               "image": "./assets/logo/lait.png",
               "alt": "lait"
             },
             {
-              "description": "ANSES : entre 700 et 1200 mg/jour calcium",
+              "description": "Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail (ANSES) : entre 700 et 1200 mg par jour de calcium",
               "image": "./assets/logo/calcium.png",
               "alt": "calcium"
+            },
+            {
+              "description": "1 verre de lait = 120 mg de calcium",
+              "image": "./assets/logo/lait.png",
+              "alt": "lait"
             }
           ]
         },
@@ -133,7 +130,7 @@
           "logo": "./assets/avatars/indprod.png",
           "texte": [
             {
-              "description": "Lobbys recommandent la consommation de lait chez les enfants",
+              "description": "La consommation de lait est essentielle à la croissance des enfants. Les industries du lait communiquent principalement sur le renforcement et la croissance des os",
               "image": "./assets/logo/lait.png",
               "alt": "lait"
             }
@@ -151,28 +148,28 @@
           "logo": "./assets/avatars/medical.png",
           "texte": [
             {
-              "description": "Maladies cardiovasculaires (baisse 50%, ne baisse pas 20%, augmente 30%)",
+              "description": "70% des études montrent un lien avec la réduction des maladies cardiovasculaires. Toutefois, 30% considèrent que ces dernières augmentent avec une consommation excessive de lait",
               "image": "./assets/logo/coeur.png",
               "alt": "coeur"
             },
             {
-              "description": "Réduit les fractures 50% ",
+              "description": "50% des études montrent que la consommation de lait réduit les fractures des os",
               "image": "./assets/logo/os.png",
               "alt": "os"
             },
             {
-              "description": "Bon pour la flore intestinale",
+              "description": "60% des études montrent que la consommation est de lait est positive pour la flore intestinale",
               "image": "./assets/logo/pizza.png",
               "alt": "nutrition"
             }
           ]
         },
         {
-          "name": "Associations de consommateurs",
+          "name": "Consommateurs",
           "logo": "./assets/avatars/famille.png",
           "texte": [
             {
-              "description": "Consommation de lait remise en cause au regard du bien être animal (véganisme), montée del’intolérance au lactose.Scepticisme et complotisme",
+              "description": "La consommation de lait est remise en cause par les alternatives végétales et une montée de l’intolérance au lactose",
               "image": "./assets/logo/empreinte.png",
               "alt": "végan"
             }
@@ -183,24 +180,29 @@
           "logo": "./assets/avatars/expert.png",
           "texte": [
             {
-              "description": "ANSES : 750 et 869mg/jour calcium",
+              "description": "ANSES : 750 et 869 mg de calcium par jour",
               "image": "./assets/logo/calcium.png",
               "alt": "calcium"
             },
             {
-              "description": "OMS : 450/500 mg/jour calcium",
+              "description": "OMS : 450 à 500 mg de calcium par jour",
               "image": "./assets/logo/lait.png",
               "alt": "lait"
             },
             {
-              "description": "UE: autorité de sécurité alimentaire 2,5g max",
+              "description": "EFSA (Autorité européenne de sécurité des aliments) : Limite de 2500 mg de calcium par jour",
               "image": "./assets/logo/fromage.png",
               "alt": "fromage"
             },
             {
-              "description": "PNNS 4 : Entre 2 à 4 produits laitiers/jour",
+              "description": "PNNS 4 : Entre 2 à 4 produits laitiers par jour",
               "image": "./assets/logo/yaourt.png",
               "alt": "yaourt"
+            },
+            {
+              "description": "1 verre de lait = 120 mg de calcium",
+              "image": "./assets/logo/lait.png",
+              "alt": "lait"
             }
           ]
         },
@@ -209,7 +211,7 @@
           "logo": "./assets/avatars/indprod.png",
           "texte": [
             {
-              "description": "Lobbys recommandent la consommation de lait (pour le sportif, bénéfice sur la santé), actions de com indirectes, via le politique",
+              "description": "Les industries du lait communiquent principalement sur les bénéfices du lait sur les os et les maladies cardiovasculaires, notamment pour les sportifs",
               "image": "./assets/logo/coeur.png",
               "alt": "coeur"
             }
@@ -228,23 +230,23 @@
           "logo": "./assets/avatars/medical.png",
           "texte": [
             {
-              "description": "Ostéoporose : baisse du risque fractures : 50% ",
+              "description": "50% des études montrent que la consommation de lait diminue le risque de fracture des os et une plus faible occurrence d’ostéoporose",
               "image": "./assets/logo/os.png",
               "alt": "os"
             },
             {
-              "description": "Augmente cancer de la prostate 50% ",
+              "description": "50% des études montrent que la consommation de lait favorise le développement d’un cancer de la prostate",
               "image": "./assets/logo/bacterie.png",
               "alt": "maladie"
             }
           ]
         },
         {
-          "name": "Associations de consommateurs",
+          "name": "Consommateurs",
           "logo": "./assets/avatars/famille.png",
           "texte": [
             {
-              "description": "Consommation de lait remise en cause au regard du bien être animal (véganisme), montée del’intolérance au lactose.Scepticisme et complotisme",
+              "description": "Certains consommateurs peuvent se montrer sceptiques à la consommation de lait, notamment à cause des scandales sanitaires",
               "image": "./assets/logo/empreinte.png",
               "alt": "végan"
             }
@@ -255,7 +257,12 @@
           "logo": "./assets/avatars/expert.png",
           "texte": [
             {
-              "description": "150ml de lait pour les personnes de plus de 75ans d’après le PNNS 4 (passage de 3 à 4 produits laitiers par jour, 2021)",
+              "description": "PNNS : 3 à 4 produits laitiers par jour",
+              "image": "./assets/logo/lait.png",
+              "alt": "lait"
+            },
+            {
+              "description": "PNNS : 150ml (= 1 verre de lait) par jour pour les personnes de plus de 75 ans",
               "image": "./assets/logo/lait.png",
               "alt": "lait"
             }
@@ -266,13 +273,31 @@
           "logo": "./assets/avatars/indprod.png",
           "texte": [
             {
-              "description": "Communication indirecte mais produits transformés des industries du lait autour des bienfaits sur la santé (cholestérol.), fractures..)  ",
+              "description": "Les industries communiquent principalement sur les bienfaits du lait sur la santé pour maintenir un bon cholestérol et prévenir les fractures",
               "image": "./assets/logo/yaourt.png",
               "alt": "yaourt"
             }
           ]
         }
       ]
+    }
+  ],
+  "thematiques": [
+    {
+      "name": "Consommation",
+      "content": "Histoire de la consommation de lait (dans les écoles enfants jusqu’aux alternatives)"
+    },
+    {
+      "name": "Institutionnalisation",
+      "content": "L’institutionnalisation de la consommation de lait commence dès l’après-guerre en France. L’Etat français recommande alors de consommer 3 produits laitiers par jour, préconisations qui se maintiennent durant toute la 2e moitié du XXe siècle et jusqu’aux années 2010, où la fameuse publicité qui loue les bienfaits des 3 produits laitiers comme « nos amis pour la vie » était toujours diffusée. Les institutions internationales ont plutôt tendance à établir des recommandations en mg de calcium plutôt qu’en termes de produits laitiers. Dans le Rapport d’un groupe d'experts FAO/OMS en 1962, les recommandations étaient comprises entre 450 et 550 mg de calcium par jour. De son côté, l’Union Européenne préconisait en 1990 une consommation de calcium de 800 mg par jour, soit presque deux fois plus. Alors, qu’est-ce qui pourrait expliquer cette différence ? D’une part l’histoire européenne et l’influence de la PAC ont joué un grand rôle dans la volonté des Etats de faire consommer des produits laitiers à la population. D’autre part, l’OMS s’adresse à une partie de la population mondiale beaucoup plus pauvre que l’UE, qui n’a pas toujours les ressources nécessaires pour consommer du calcium en quantité. Enfin, il ne faut pas oublier que derrière des recommandations en calcium se cachent une infinité de possibilités pour les atteindre : il existe bien d’autres sources de calcium que le lait, comme les légumineuses ou les fruits à coque. Aujourd’hui, la plupart des pays européens recommandent une consommation en termes de produits laitiers, plus clair pour la population. Malgré certaines divergences en termes de langage, tous s’accordent sur la nécessité d’en consommer environ 2 par jour. Par exemple, le PNNS 2019-2023 en France préconise 2 produits laitiers par jour, le gouvernement italien conseille 3 verres de lait par jour, et les recommandations en Wallonie s’élèvent à 2 à 3 fois par jour pour une consommation de lait et d’alternatives végétales enrichies en calcium.Toutefois, certains pays plus lointains comme le Canada ont choisi de laisser au consommateur l’appréciation de leur consommation de calcium en remplaçant la catégorie « laitage » de leur programme de nutrition par une catégorie plus souple qui permet de varier les apports en calcium."
+    },
+    {
+      "name": "Sanitaire",
+      "content": "Besoins nutritionnels, Maladies, Médecine traditionnelle "
+    },
+    {
+      "name": "Production",
+      "content": "Parmi les facteurs de remise en cause du lait, on peut nommer les différents scandales sanitaires qui ont touché les industries agro-alimentaires, notamment le scandale de la salmonelle ou de la vache folle qui sont venus ternir l’image que ce faisait le public de l’élevage bovin. Le scandale de vache folle est un scandale qui date des années 90 avec une épidémie au sein des troupeaux de vaches d’une maladie appelé encéphalopathie spongiforme bovine, l’origine de cette maladie s’explique par la consommation de ces troupeaux de farine animales à partir de carcasses animales et de parties des viandes bovines non mangées. Cette crise est une crise éthique ét socio-économique qui met principalement en tension la société quant à ses pratiques de production de viande et d’élevage bovin. L’image d’une agriculture traditionnelle est alors déconstruite lors de cette crise. Plus largement, la crise prend de l’ampleur car on soupçonne la possibilité de transmission de l’ESB de l’animal à l’homme par la consommation de viande, provoquant un effondrement de la vente de viande bovine.Le scandale de la salmonelle éclate en 2017. Il s'agit en fait d’une crise qui date d’avant et qui touche le géant de l’industrie du lait : Lactalis. Une des usines du distributeur serait contaminée depuis plusieurs années à la salmonelle et ceux malgré des autocontrôles réalisés par les usines et la connaissance du problème de la part du directeur de l’usine. Le scandale pose ainsi plusieurs problèmes, bien qu’il semblerait que les victimes se rétablissent assez vite, il s’agit de nourrissons qui sont principalement touchés donc plus vulnérables. Un fort problème de confiance s’établit alors entre la population et l’industrie laitière. Le regard du public se tourne alors vers la gestion des crises sanitaires dans les usines et leur capacité à retirer à temps les produits contaminés. Réactivité qui n’est pas au rendez-vous. Ces scandales sont venus rétablir la vérité derrière les étiquettes des produits laitiers qui représente l’élevage bovin comme celui de cheptel d’une trentaine de bêtes qui pâturent dans les champs. La production de lait et de produits laitiers est en réalité constituée d’acteurs différents par leur taille et leurs intérêts allant de l’élevage à la distribution. La taille des cheptels et les conditions dans les élevages sont également diverses et viennent remettre en question les apports réels des produits laitiers. L’industrie du lait est en France la deuxième industrie agro-alimentaire, composée de 3 acteurs majeurs à savoir, Nestlé, Danone et Lactalis. Ils interviennent dans la transformation et la distribution du lait, qu’ils achètent aux producteurs. En France, on trouve différents types d’élevage avec un accès plus ou moins important au pâturage, voire inexistant. N’offrant pas la même qualité de vie aux vaches, leur durée de vie est aussi réduite car leur production de lait est intensifiée. De ce fait, le développement du bio mais aussi de normes pour attester des bonnes conditions d’élevage et de la qualité se sont développés ces dernières années. Le label bio répond à un cahier des charges qui garantit 60% de fourrages et impose également une surface minimum par animal (6m² en intérieur et 4,5m² en extérieur/vache). Néanmoins ces derniers, en termes de soutien et reconnaissance des bienfaits du lait sur la santé à tous les âges de la vie, ne se prononcent pas particulièrement, sans pour autant venir modérer les propos des géants du lait en la matière."
     }
   ]
 }

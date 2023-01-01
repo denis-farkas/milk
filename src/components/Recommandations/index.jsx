@@ -27,9 +27,9 @@ function Recommandations() {
 
   return (
     <div className="main recommandations">
-      <div className="subtitle center">
+      <h1 className="title-mode">
         Recommandations selon les âges et les acteurs
-      </div>
+      </h1>
       <div className="section-ages">
         <div className="ages">
           {data.recommandations.map((age, j) => {
@@ -125,11 +125,6 @@ function Recommandations() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="footer">
-        <Link to="/themes">
-          <button className="plus">Thèmes...</button>
-        </Link>
       </div>
     </div>
   );

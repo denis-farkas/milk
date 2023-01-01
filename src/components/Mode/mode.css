@@ -6,6 +6,17 @@
   margin: 0 auto;
 }
 
+.title-mode {
+  color: #4986c0;
+  font-size: 3rem;
+  width: 100%;
+  -webkit-margin-before: 1.7rem;
+          margin-block-start: 1.7rem;
+  -webkit-margin-after: 1rem;
+          margin-block-end: 1rem;
+  text-align: center;
+}
+
 .subtitle-mode {
   width: 100%;
   text-align: center;

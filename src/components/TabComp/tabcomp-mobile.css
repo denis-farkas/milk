@@ -4,15 +4,20 @@
     padding: 1rem 0;
   }
   .themes {
-    width: 80%;
+    width: 100%;
+    margin: 0 auto;
   }
   .card-theme {
-    width: 23%;
-    margin: 0.5rem;
+    width: 20%;
+    min-width: 80px;
+    margin: 0.1rem;
   }
   .image-theme img {
     width: 85%;
     height: auto;
+  }
+  .legend-theme {
+    font-size: 0.7rem;
   }
 }
 /*# sourceMappingURL=tabcomp-mobile.css.map */

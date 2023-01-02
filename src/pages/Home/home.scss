@@ -17,6 +17,14 @@ body {
   margin: 0 auto;
 }
 
+.subtitle-small {
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
+  margin: 2rem auto;
+  text-decoration: underline;
+}
+
 .header {
   display: flex;
   position: sticky;
@@ -27,6 +35,7 @@ body {
   border-bottom: 1px solid hsl(220, 14%, 75%);
   margin: 0 auto;
   background-color: #fff;
+  z-index: 5;
 }
 
 .menu-mobile {

@@ -146,14 +146,28 @@ function Home() {
             de ce dernier.
           </p>
         </div>
+        <p className="subtitle-small">
+          La consommation de lait fait intervenir de nombreux acteurs avec des
+          opinions différentes et des intérêts divergents. Découvrons les
+          acteurs qui gravitent autour du lait et leur opinion sur le sujet.
+        </p>
         <div className="separate" id="Mode">
           <img src="assets/images/arrow-down.png" alt="arrow-down" />
         </div>
         <Mode />
+        <p className="subtitle-small">
+          Maintenant que tu as compris quels sont les acteurs autour de la
+          consommation du lait, essayons de comprendre pourquoi et à quel âge il
+          faudrait consommer du lait.
+        </p>
         <div className="separate" id="Consommation">
           <img src="assets/images/arrow-down.png" alt="arrow-down" />
         </div>
         <Recommandations />
+        <p className="subtitle-small">
+          Pour aller plus loin, voici les thématiques principales qui expliquent
+          la controverse du lait.
+        </p>
         <div className="separate" id="Theme">
           <img src="assets/images/arrow-down.png" alt="arrow-down" />
         </div>

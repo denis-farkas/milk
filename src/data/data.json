@@ -1,7 +1,7 @@
 {
   "acteurs": [
     {
-      "name": "Dissidents",
+      "name": "Détracteurs",
       "images": {
         "icon": "./assets/avatars/complotiste.png"
       },
@@ -286,22 +286,110 @@
     {
       "name": "Consommation",
       "logo": "./assets/avatars/famille.png",
-      "content": "Histoire de la consommation de lait (dans les écoles enfants jusqu’aux alternatives)"
+      "content": [
+        {
+          "text": "Les plus anciennes traces de consommation de lait de vache datent d’il y a plus de 8 000 ans et se trouvent au Moyen-Orient. Ce sont les conclusions de l’étude scientifique « LeCHE » qui démontrent que la consommation de lait remonte aux premières sociétés néolithiques en Europe en -8900 avant J-C. Dans l’Antiquité, les Grecs et les Romains buvaient peu de lait, considéré comme un breuvage barbare, mais le consommaient sous forme de fromage."
+        },
+        {
+          "text": "En France, du Moyen  ge au XVIIIe siècle, à cause des difficultés de conservation, le lait reste un produit rare et cher pour les populations des villes. Ce n’est qu’à partir de la fin de la Deuxième Guerre mondiale, que le lait connaît un développement inédit et devient un produit accessible pour tous les consommateurs. Il s’érige comme le produit alimentaire qui aidera à relancer une partie de l’économie française tout en améliorant la santé des habitants."
+        },
+        {
+          "text": "Ainsi, dans le cadre d’une campagne de lutte contre l’alcoolisme, dont la consommation était très courante même chez les plus jeunes, le président Pierre Mendès-France décide en 1954 d’encourager les Français à boire du lait. Cela passe notamment par la distribution dans les écoles maternelles et primaires d’une briquette de lait au moment de la récréation pour donner aux enfants l’habitude de boire un liquide sain qui viendrait aussi pallier les carences nutritionnelles de l’après-guerre. Dans le même temps, le lait devient un produit de consommation banalisé grâce à de nombreux progrès scientifiques. Par exemple, avec le développement de la stérilisation UHT (Ultra Haute Température), il est désormais possible de garder le lait pendant plus de trois mois et à température ambiante."
+        },
+        {
+          "text": "Le lait s’ancre peu à peu dans les habitudes alimentaires des Français. C’est toute une construction symbolique qui se fait autour du lait ; associé à la pureté, vanté par ses bienfaits sur la santé, sa consommation est désormais incontournable dans la représentation collective d’un bon régime alimentaire."
+        },
+        {
+          "text": "Avec une consommation qui n’a cessé de croître depuis l’ère industrielle, la filière laitière devient un moteur de l’économie française. Elle se place en deuxième position du secteur agroalimentaire avec un chiffre d’affaires de 39 milliards d’euros en 2020, après la filière viande. L’enquête « Comportements et Consommations Alimentaires en France » menée en 2015, démontre que 80% des Français âgés de 3 à 75 ans consomment tous les jours des produits laitiers. Aujourd’hui, les institutions sanitaires recommandent de consommer « 3 produits laitiers par jour » (PNNS)."
+        },
+        {
+          "text": "Cependant, la consommation de lait est à la baisse en France depuis dix ans. Les bienfaits du lait ont été régulièrement remis en question par des études scientifiques. Les scandales sanitaires, comme le lait contaminé aux salmonelles en 2017, ou encore les soupçons de provoquer certains cancers, le diabète ou des troubles de la digestion font que la consommation de lait a baissé de 3 % par an en France. Alors que chaque Français buvait 61 litres de lait par an en 2003, ce chiffre est tombé à 43 litres de lait en 2021."
+        },
+        {
+          "text": "La remise en question des qualités nutritionnelles du lait, la médiatisation des pratiques d’exploitations intensives des vaches, l’impact environnemental de la filière laitière ou encore le développement des « laits » alternatifs font que la consommation de lait est de moins en moins populaire auprès des Français."
+        }
+      ]
     },
     {
       "name": "Institutionnel",
       "logo": "./assets/avatars/expert.png",
-      "content": "L’institutionnalisation de la consommation de lait commence dès l’après-guerre en France. L’Etat français recommande alors de consommer 3 produits laitiers par jour, préconisations qui se maintiennent durant toute la 2e moitié du XXe siècle et jusqu’aux années 2010, où la fameuse publicité qui loue les bienfaits des 3 produits laitiers comme « nos amis pour la vie » était toujours diffusée. Les institutions internationales ont plutôt tendance à établir des recommandations en mg de calcium plutôt qu’en termes de produits laitiers. Dans le Rapport d’un groupe d'experts FAO/OMS en 1962, les recommandations étaient comprises entre 450 et 550 mg de calcium par jour. De son côté, l’Union Européenne préconisait en 1990 une consommation de calcium de 800 mg par jour, soit presque deux fois plus. Alors, qu’est-ce qui pourrait expliquer cette différence ? D’une part l’histoire européenne et l’influence de la PAC ont joué un grand rôle dans la volonté des Etats de faire consommer des produits laitiers à la population. D’autre part, l’OMS s’adresse à une partie de la population mondiale beaucoup plus pauvre que l’UE, qui n’a pas toujours les ressources nécessaires pour consommer du calcium en quantité. Enfin, il ne faut pas oublier que derrière des recommandations en calcium se cachent une infinité de possibilités pour les atteindre : il existe bien d’autres sources de calcium que le lait, comme les légumineuses ou les fruits à coque. Aujourd’hui, la plupart des pays européens recommandent une consommation en termes de produits laitiers, plus clair pour la population. Malgré certaines divergences en termes de langage, tous s’accordent sur la nécessité d’en consommer environ 2 par jour. Par exemple, le PNNS 2019-2023 en France préconise 2 produits laitiers par jour, le gouvernement italien conseille 3 verres de lait par jour, et les recommandations en Wallonie s’élèvent à 2 à 3 fois par jour pour une consommation de lait et d’alternatives végétales enrichies en calcium.Toutefois, certains pays plus lointains comme le Canada ont choisi de laisser au consommateur l’appréciation de leur consommation de calcium en remplaçant la catégorie « laitage » de leur programme de nutrition par une catégorie plus souple qui permet de varier les apports en calcium."
+      "content": [
+        {
+          "text": "L’institutionnalisation de la consommation de lait commence dès l’après-guerre en France. L’Etat français recommande alors de consommer 3 produits laitiers par jour, préconisations qui se maintiennent durant toute la 2e moitié du XXe siècle et jusqu’aux années 2010, où la fameuse publicité qui loue les bienfaits des 3 produits laitiers comme « nos amis pour la vie » était toujours diffusée."
+        },
+        {
+          "text": "Les institutions internationales ont plutôt tendance à établir des recommandations en mg de calcium plutôt qu’en termes de produits laitiers. Dans le Rapport d’un groupe d'experts FAO/OMS en 1962, les recommandations étaient comprises entre 450 et 550 mg de calcium par jour. De son côté, l’Union Européenne préconisait en 1990 une consommation de calcium de 800 mg par jour, soit presque deux fois plus."
+        },
+        {
+          "text": "Alors, qu’est-ce qui pourrait expliquer cette différence ? D’une part l’histoire européenne et l’influence de la PAC ont joué un grand rôle dans la volonté des Etats de faire consommer des produits laitiers à la population. D’autre part, l’OMS s’adresse à une partie de la population mondiale beaucoup plus pauvre que l’UE, qui n’a pas toujours les ressources nécessaires pour consommer du calcium en quantité."
+        },
+        {
+          "text": "Enfin, il ne faut pas oublier que derrière des recommandations en calcium se cachent une infinité de possibilités pour les atteindre : il existe bien d’autres sources de calcium que le lait, comme les légumineuses ou les fruits à coque."
+        },
+        {
+          "text": "Aujourd’hui, la plupart des pays européens recommandent une consommation en termes de produits laitiers, plus clair pour la population. Malgré certaines divergences en termes de langage, tous s’accordent sur la nécessité d’en consommer environ 2 par jour. Par exemple, le PNNS 2019-2023 en France préconise 3 produits laitiers par jour, le gouvernement italien conseille 3 verres de lait par jour, et les recommandations en Wallonie s’élèvent à 2 à 3 fois par jour pour une consommation de lait et d’alternatives végétales enrichies en calcium."
+        },
+        {
+          "text": "Toutefois, certains pays plus lointains comme le Canada ont choisi de laisser au consommateur l’appréciation de leur consommation de calcium en remplaçant la catégorie « laitage » de leur programme de nutrition par une catégorie plus souple qui permet de varier les apports en calcium."
+        }
+      ]
     },
     {
       "name": "Sanitaire",
       "logo": "./assets/avatars/medical.png",
-      "content": "Besoins nutritionnels, Maladies, Médecine traditionnelle "
+      "content": [
+        {
+          "text": "Le lait est source de nombreux débats et d’une réelle controverse dans le domaine de la santé car les résultats scientifiques divergent sur les bénéfices et les risques de sa consommation régulière. Mais pour pouvoir parler des bénéfices ou des risques du lait, il faut d’abord connaître sa composition nutritionnelle."
+        },
+        {
+          "text": "Dans 100g de lait de vache, il y a environ 90g d’eau. Dans les 10g restants, on retrouve des nutriments qui sont essentiels pour le bon fonctionnement de l’organisme humain : environ 3,5g de protéines, 5g de glucides et 1,5g de matières grasses. De plus, le lait contient d’autres nutriments comme du phosphore, du potassium, du magnésium ou encore des vitamines du groupe B. Mais le minéral qui nous intéresse le plus dans la composition chimique du lait est le calcium."
+        },
+        {
+          "text": "En effet, le calcium étant un élément vital pour la constitution de la masse osseuse, le lait est une source non négligeable de calcium qui permet d’atteindre l’apport quotidien nécessaire pour le bon fonctionnement de l’organisme. Il sert à solidifier les os de notre corps et d’autres fonctions tout aussi importantes. Cela explique notamment pourquoi le lait occupe une place aussi importante dans notre régime alimentaire. Il est possible de se procurer la même quantité de calcium par d’autres moyens, tels que les végétaux, différentes boissons ou encore des compléments alimentaires."
+        },
+        {
+          "text": "Toutefois, le remplacement des produits laitiers par des végétaux ou des boissons afin d’obtenir l’apport quotidien en calcium signifie souvent une augmentation conséquente de la quantité et des portions à consommer. De même pour les compléments alimentaires qui sont aujourd’hui aussi controversés que le lait lui-même. Il semble donc difficile de se passer des produits laitiers."
+        },
+        {
+          "text": "Au-delà de ses vertus nutritives, le lait est souvent présenté comme un aliment qui aurait un effet protecteur sur différentes pathologies. En revanche, les études scientifiques menées sur l’influence de la consommation de lait sur une pathologie ou une autre ne nous permettent pas de poser un regard objectif. La nutrition étant un domaine très complexe, il est difficile de déterminer les effets du lait sur l’organisme humain alors que l’environnement, le patrimoine génétique et bien d’autres aspects peuvent influencer notre santé. De même, l’apparition de pathologies est multi-factorielle, ce qui nécessite une prise en compte globale de différents facteurs et rend donc la tâche d’isoler le rôle du lait du reste d’éléments extrêmement difficile."
+        },
+        {
+          "text": "Il est cependant assez unanimement reconnu par la communauté scientifique que le lait aurait un effet protecteur sur la constitution osseuse, à condition qu’il soit associé à la vitamine D. De plus, les acides gras et le calcium présents dans le lait, auraient un effet positif sur les maladies cardiovasculaires comme l’hypertension ou le syndrome métabolique. Néanmoins, aucune étude n'a établi de lien entre cet effet protecteur sur la constitution osseuse et la réduction du risque de fractures ou encore de survenue d’ostéoporose à l’âge adulte."
+        },
+        {
+          "text": "Par ailleurs, la communauté scientifique reconnaît aussi unanimement qu’une consommation excessive de lait peut avoir des conséquences négatives sur la santé. Parmi celles-ci, à partir de 4 portions journalières de produits laitiers, les études démontrent que le risque de développer un cancer de la prostate augmente. La forte quantité d’acides gras saturés est souvent un aspect qui est critiqué dans la littérature scientifique car il ne serait pas bénéfique pour notre santé et pourrait engendrer de l’obésité ou du surpoids. Ce n’est donc qu’à partir d’une consommation importante de lait que le risque de développer une pathologie métabolique augmente."
+        },
+        {
+          "text": "Ainsi, l’idée la plus consensuelle chez la communauté scientifique concernant la consommation de lait est que la modération est la clé. Lorsqu’il est consommé dans des proportions excessives, le lait peut être néfaste pour la santé. Il est aussi possible de se passer totalement du lait de vache et de le remplacer par d’autres aliments mais cela nécessite une connaissance des sources des nutriments et une bonne gestion des quantités nécessaires afin de ne pas créer de carence dans l’organisme."
+        },
+        {
+          "text": "La recherche sur ce sujet est constante et abondante, mais il est difficile d’affirmer un lien de causalité entre l’influence de la consommation de lait et le développement d’une pathologie."
+        }
+      ]
     },
     {
       "name": "Production",
       "logo": "./assets/avatars/indprod.png",
-      "content": "Parmi les facteurs de remise en cause du lait, on peut nommer les différents scandales sanitaires qui ont touché les industries agro-alimentaires, notamment le scandale de la salmonelle ou de la vache folle qui sont venus ternir l’image que ce faisait le public de l’élevage bovin. Le scandale de vache folle est un scandale qui date des années 90 avec une épidémie au sein des troupeaux de vaches d’une maladie appelé encéphalopathie spongiforme bovine, l’origine de cette maladie s’explique par la consommation de ces troupeaux de farine animales à partir de carcasses animales et de parties des viandes bovines non mangées. Cette crise est une crise éthique ét socio-économique qui met principalement en tension la société quant à ses pratiques de production de viande et d’élevage bovin. L’image d’une agriculture traditionnelle est alors déconstruite lors de cette crise. Plus largement, la crise prend de l’ampleur car on soupçonne la possibilité de transmission de l’ESB de l’animal à l’homme par la consommation de viande, provoquant un effondrement de la vente de viande bovine.Le scandale de la salmonelle éclate en 2017. Il s'agit en fait d’une crise qui date d’avant et qui touche le géant de l’industrie du lait : Lactalis. Une des usines du distributeur serait contaminée depuis plusieurs années à la salmonelle et ceux malgré des autocontrôles réalisés par les usines et la connaissance du problème de la part du directeur de l’usine. Le scandale pose ainsi plusieurs problèmes, bien qu’il semblerait que les victimes se rétablissent assez vite, il s’agit de nourrissons qui sont principalement touchés donc plus vulnérables. Un fort problème de confiance s’établit alors entre la population et l’industrie laitière. Le regard du public se tourne alors vers la gestion des crises sanitaires dans les usines et leur capacité à retirer à temps les produits contaminés. Réactivité qui n’est pas au rendez-vous. Ces scandales sont venus rétablir la vérité derrière les étiquettes des produits laitiers qui représente l’élevage bovin comme celui de cheptel d’une trentaine de bêtes qui pâturent dans les champs. La production de lait et de produits laitiers est en réalité constituée d’acteurs différents par leur taille et leurs intérêts allant de l’élevage à la distribution. La taille des cheptels et les conditions dans les élevages sont également diverses et viennent remettre en question les apports réels des produits laitiers. L’industrie du lait est en France la deuxième industrie agro-alimentaire, composée de 3 acteurs majeurs à savoir, Nestlé, Danone et Lactalis. Ils interviennent dans la transformation et la distribution du lait, qu’ils achètent aux producteurs. En France, on trouve différents types d’élevage avec un accès plus ou moins important au pâturage, voire inexistant. N’offrant pas la même qualité de vie aux vaches, leur durée de vie est aussi réduite car leur production de lait est intensifiée. De ce fait, le développement du bio mais aussi de normes pour attester des bonnes conditions d’élevage et de la qualité se sont développés ces dernières années. Le label bio répond à un cahier des charges qui garantit 60% de fourrages et impose également une surface minimum par animal (6m² en intérieur et 4,5m² en extérieur/vache). Néanmoins ces derniers, en termes de soutien et reconnaissance des bienfaits du lait sur la santé à tous les âges de la vie, ne se prononcent pas particulièrement, sans pour autant venir modérer les propos des géants du lait en la matière."
+      "content": [
+        {
+          "text": "Parmi les facteur de remise en cause du lait, on peut nommer les différents scandales sanitaires qui ont touché les industries agro-alimentaires, notamment le scandale de la salmonelle ou de la vache folle qui sont venus ternir l’image que ce faisait le public de l’élevage bovin."
+        },
+        {
+          "text": "Le scandale de vache folle est un scandale qui date des années 90 avec une épidémie au sein des troupeaux de vaches d’une maladie appelé encéphalopathie spongiforme bovine, l’origine de cette maladie s’explique par la consommation de ces troupeaux de farine animales à partir de carcasses animales et de parties des viandes bovines non mangées. Cette crise est une crise éthique ét socio-économique qui met principalement en tension la société quant à ses pratiques de production de viande et d’élevage bovin. L’image d’une agriculture traditionnelle est alors déconstruite lors de cette crise. Plus largement, la crise prend de l’ampleur car on soupçonne la possibilité de transmission de l’ESB de l’animal à l’homme par la consommation de viande, provoquant un effondrement de la vente de viande bovine."
+        },
+        {
+          "text": "Le scandale de la salmonelle éclate en 2017. Il s'agit en fait d’une crise qui date d’avant et qui touche le géant de l’industrie du lait : Lactalis. Une des usines du distributeur serait contaminée depuis plusieurs années à la salmonelle et ceux malgré des autocontrôles réalisés par les usines et la connaissance du problème de la part du directeur de l’usine. Le scandale pose ainsi plusieurs problèmes, bien qu’il semblerait que les victimes se rétablissent assez vite, il s’agit de nourrissons qui sont principalement touchés donc plus vulnérables. Un fort problème de confiance s’établit alors entre la population et l’industrie laitière. Le regard du public se tourne alors vers la gestion des crises sanitaires dans les usines et leur capacité à retirer à temps les produits contaminés. Réactivité qui n’est pas au rendez-vous."
+        },
+        {
+          "text": "Ces scandales sont venus rétablir la vérité derrière les étiquettes des produits laitiers qui représente l’élevage bovin comme celui de cheptel d’une trentaine de bêtes qui pâturent dans les champs. La production de lait et de produits laitiers est en réalité constituée d’acteurs différents par leur taille et leurs intérêts allant de l’élevage à la distribution. La taille des cheptels et les conditions dans les élevages sont également diverses et viennent remettre en question les apports réels des produits laitiers."
+        },
+        {
+          "text": "L’industrie du lait est en France la deuxième industrie agro-alimentaire, composée de 3 acteurs majeurs à savoir, Nestlé, Danone et Lactalis. Ils interviennent dans la transformation et la distribution du lait, qu’ils achètent aux producteurs. En France, on trouve différents types d’élevage avec un accès plus ou moins important au pâturage, voire inexistant. N’offrant pas la même qualité de vie aux vaches, leur durée de vie est aussi réduite car leur production de lait est intensifiée."
+        },
+        {
+          "text": "De ce fait, le développement du bio mais aussi de normes pour attester des bonnes conditions d’élevage et de la qualité se sont développés ces dernières années. Le label bio répond à un cahier des charges qui garantit 60% de fourrages et impose également une surface minimum par animal (6m² en intérieur et 4,5m² en extérieur/vache). Néanmoins ces derniers, en termes de soutien et reconnaissance des bienfaits du lait sur la santé à tous les âges de la vie, ne se prononcent pas particulièrement, sans pour autant venir modérer les propos des géants du lait en la matière."
+        }
+      ]
     }
   ]
 }

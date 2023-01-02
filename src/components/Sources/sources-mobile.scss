@@ -1,0 +1,27 @@
+@media screen and (max-width: 1024px) {
+  .main-source {
+    width: 95%;
+  }
+
+  .open {
+    padding: 2rem 0;
+    width: 100%;
+  }
+
+  .button-source {
+    display: flex;
+    width: 80%;
+    height: 52px;
+  }
+
+  .section-source {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .sources {
+    margin-left: 2rem;
+  }
+}

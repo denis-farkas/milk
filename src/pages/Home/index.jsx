@@ -4,6 +4,7 @@ import './home.css';
 import './home-mobile.css';
 import Recommandations from '../../components/Recommandations';
 import TabComp from '../../components/TabComp';
+import Sources from '../../components/Sources';
 
 function Home() {
   return (
@@ -172,6 +173,10 @@ function Home() {
           <img src="assets/images/arrow-down.png" alt="arrow-down" />
         </div>
         <TabComp />
+        <div className="separate" id="Theme">
+          <img src="assets/images/arrow-down.png" alt="arrow-down" />
+        </div>
+        <Sources />
       </div>
     </>
   );

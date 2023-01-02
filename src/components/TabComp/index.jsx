@@ -61,7 +61,11 @@ const TabComp = () => {
           <div className="jumbotron-body">
             <div className="jumbotron-description">
               {data.thematiques[currentTheme].content.map((cont, i) => {
-                return <p tabIndex={i}>{cont.text}</p>;
+                return (
+                  <p key={i} tabIndex={i}>
+                    {cont.text}
+                  </p>
+                );
               })}
             </div>
           </div>

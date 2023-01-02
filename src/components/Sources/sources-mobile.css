@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px) {
+  .main-source {
+    width: 95%;
+  }
+  .open {
+    padding: 2rem 0;
+    width: 100%;
+  }
+  .button-source {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    height: 52px;
+  }
+  .section-source {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .sources {
+    margin-left: 2rem;
+  }
+}
+/*# sourceMappingURL=sources-mobile.css.map */
